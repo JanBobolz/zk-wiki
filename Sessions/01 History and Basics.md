@@ -76,7 +76,7 @@ To this end, let us assume that $L$ is an NP language and consider the correspon
 We say a proof system for $R_L$ is *Proof of Knowledge (PoK)* if the following condition is satisfied: if $V$ accepts on statement $x$, then $P^*$ must have known the corresponding witness $w$.
 
 Formally, $\exists E$ such that $E$ is PPT and $\forall P^*$, $\forall x\in L$, 
-$$\Pr[b=1 \land (x,w)\in R_L \;|\; b\gets(P^*,V)(x); w\gets E^{P^*}(x)] = \mathsf{negl}(|x|)$$
+$$\Pr[b=1 \land (x,w)\notin R_L \;|\; b\gets(P^*,V)(x); w\gets E^{P^*}(x)] = \mathsf{negl}(|x|)$$
 
 > [!question] What does $E^{P^*}$ mean? 
 > It means that an extractor $E$ has black-box access to $P^*$. This implies that $E$ can *rewind* $P^*$ to its previous state. 
