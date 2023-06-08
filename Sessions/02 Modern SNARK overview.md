@@ -1,5 +1,4 @@
 ---
-title: "Session 2: Modern SNARK overview"
 aliases: []
 tags: [session]
 created: 2023-05-03

@@ -1,5 +1,4 @@
 ---
-title: "Session 1: History and Basics"
 aliases: []
 tags: [session]
 created: 2023-05-03
@@ -29,7 +28,7 @@ Additional (optional) material can be found on https://zk-learning.org.
 Mostly talked about [[Soundness]]/[[Soundness|Proof of Knowledge]] and [[Zero Knowledge]].
 
 #### Interactive Proofs
-Let $L$ be a language. An *interactive proof system for $L$ is a tuple of interactive algorithms Prover $P$ and Verifier $V$, that proceed as follows. 
+Let $L$ be a language. An *interactive proof system* for $L$ is a tuple of interactive algorithms Prover $P$ and Verifier $V$, that proceed as follows. 
 
 1. $P$ and $V$ take a *statement* $x$ as common input. 
 2. For each round $i=1,\ldots,r$: $P$ sends a message $a_i$ and $V$ responds with $q_i$.
