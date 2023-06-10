@@ -31,6 +31,7 @@ created: 2023-04-21
 	- [[Mac'n'Cheese]]
 	- Feta
 	- ...
+	- Overview: https://eprint.iacr.org/2023/857
 
 ## 🥬 Lattice ZKPs
 https://lattices-meet-hashes23.epfl.ch/program.html
