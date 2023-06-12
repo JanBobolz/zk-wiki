@@ -14,7 +14,7 @@ created: 2023-05-03
 First, this is to kick off the reading group. We want to discuss important notions, and get everyone up to speed with the influential "roots" of ZK proofs.
 
 We want to understand
-- Basic definitions of [[Interactive Protocol|the IP complexity class]], [[Soundness]]/[[Soundness|Proof of Knowledge]], and [[Zero Knowledge]] (simulation paradigm).
+- Basic definitions of [[Interactive Protocol|the IP complexity class]], [[Soundness]]/[[Proof of Knowledge]], and [[Zero Knowledge]] (simulation paradigm).
 - [[Cut-and-Choose]] protocols (e.g., 3-colorable, Quadratic Residue, Graph Isomorphism).
 - [[Fiat-Shamir]].
 
@@ -25,7 +25,7 @@ Additional (optional) material can be found on https://zk-learning.org.
 
 ## 📝 Notes
 ### Session 1.1 (2023-06-01): Basic definitions
-Mostly talked about [[Soundness]]/[[Soundness|Proof of Knowledge]] and [[Zero Knowledge]].
+Mostly talked about [[Soundness]]/[[Proof of Knowledge|Proof of Knowledge]] and [[Zero Knowledge]].
 
 #### Interactive Proofs
 Let $L$ be a language. An *interactive proof system* for $L$ is a tuple of interactive algorithms Prover $P$ and Verifier $V$, that proceed as follows. 
@@ -79,7 +79,7 @@ Formally, $\exists E$ such that $E$ is PPT and $\forall P^*$, $\forall x\in L$,
 $$\Pr[b=1 \land (x,w)\notin R_L \;|\; b\gets(P^*,V)(x); w\gets E^{P^*}(x)] = \mathsf{negl}(|x|)$$
 
 > [!question] What does $E^{P^*}$ mean? 
-> It means that an extractor $E$ has black-box access to $P^*$. This implies that $E$ can *rewind* $P^*$ to its previous state. 
+> It means that an extractor $E$ has black-box access to $P^*$. This implies that $E$ can [[Rewinding|rewind]] $P^*$ to its previous state. 
 
 
 ### Session 1.2 (2023-06-15): Example protocols

@@ -1,6 +1,6 @@
 ---
 title: "Soundness"
-aliases: [sound, PoK, Proof of Knowledge]
+aliases: [sound]
 tags: []
 created: 2023-05-03
 ---
