@@ -4,4 +4,9 @@ tags: []
 created: 2023-06-12
 ---
 
-> [!info] No content yet 🚧. Feel free to [[Homepage|contribute]] and make this page a reality 🙂.
+The proof of knowledge property states that in order to make the verifier $\mathcal{V}(x)$ accept, the (malicious) prover needs to *know* a witness $w$ for $x$.
+
+# Philosophy
+
+
+# Formal definition
