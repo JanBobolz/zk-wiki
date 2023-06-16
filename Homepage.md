@@ -6,6 +6,7 @@ Welcome to the zero-knowledge reading group wiki.
 
 # 🚀 Important pages
 - [[Session plan|Session Plan]]: what we're planning to do in each session
+- [[Definitions]]: overview of definitions for ZK proofs
 - [[Constructions]]: overview of constructions
 
 # ✏️ How to edit
