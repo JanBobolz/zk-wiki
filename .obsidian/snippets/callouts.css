@@ -1,0 +1,6 @@
+.callout[data-callout="protocol"] {
+    #color: #000000;
+    #--callout-color: 238,248,248;
+    --callout-icon: lucide-play;
+}
+

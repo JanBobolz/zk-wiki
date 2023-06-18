@@ -9,4 +9,6 @@ The proof of knowledge property states that in order to make the verifier $\math
 # Philosophy
 
 
-# Formal definition
+# Formal definitions
+## Interactive proofs
+- [[Proof of Knowledge (Classical)|Classical definition]]
