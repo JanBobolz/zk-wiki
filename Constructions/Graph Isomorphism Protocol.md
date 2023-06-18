@@ -46,7 +46,23 @@ The [[Zero Knowledge (Classical)]] simulator $S(x)$ for (malicious) verifier $V^
 > 	- If $c' = c$, then output the view $$(x,r,H,\omega)$$ Otherwise, start from the beginning and try again. 
 
 ## The [[Proof of Knowledge (Classical)|PoK]] property
+For simplicity, we assume that the prover has probability 1 to convince an honest verifier, which puts us into the [[Proof of Knowledge (Classical)#A simplified toy definition]] scenario. 
+The extractor for prover $P^*$ works as follows:
+> [!algorithm] Extractor $E^{P^*}(G_0,G_1)$
+> - $E$ retrieves the prover’s announcement $H = P^*(G_0,G_1;r;())$ (for some random $r$)
+> - $E$ retrieves the prover’s response for both challenges $c\in\{0,1\}$ as $\omega_c = P^*(G_0,G_1;r;(c))$
+> 	- From the verification equation, we get $\omega_c(G_c) = H$
+> - $E$ outputs the witness $\sigma = \omega_1^{-1}\circ\omega_0$
 
+Intuitively, the two verification equations give us maps $G_0 \overset{\omega_0}{\rightarrow} H \overset{\omega_1}{\leftarrow} G_1$, which we just plug together to get from $G_0$ to $G_1$ (via $H$).
+Formally, the witness is correct beca use $\sigma(G_0) = \omega_1^{-1}(\omega_0(G_0)) = \omega_1^{-1}(H) = G_1$.
+
+> [!info] Non-simplified scenario
+> 
+> > [!theorem] Theorem: the Graph Isomorphism property is a [[Proof of Knowledge (Classical)]] with knowledge error $\kappa = 1/2$.
+> 
+> For a prover that may not answer all challenges correctly *always* (but convinces the verifier with probability $> 1/2$), it may happen that when $E$ gets the two responses in the second step, one or more of them is actually invalid, i.e. fails the verification equation. In that case, the response is useless for the extractor.
+> In that scenario, $E$ will have to restart and try different prover randomness $r$. Using a counting argument, one can show that for *some* $r$, the prover has to be able to answer both challenges (otherwise it cannot be convincing with probability larger than $1/2$). The extractor then tries different $r$ until it finds one for which both challenges can be answered.
 
 # Notes
 - Graph Isomorphism is not known to be $\mathbf{NP}$-complete, so the language is not of much importance. However, its complement ("prove two graphs are *not* isomorphic") is not known to be in $\mathbf{NP}$, so Graph Isomorphism and its complement often come up in educational contexts as good examples for the power of the class [[Interactive Protocol|IP]].
