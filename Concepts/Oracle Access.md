@@ -1,5 +1,5 @@
 ---
-aliases: [QR protocol, QR]
+aliases: [oracle]
 tags: []
 created: 2023-06-18
 ---

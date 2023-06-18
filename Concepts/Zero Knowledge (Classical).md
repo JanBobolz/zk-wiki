@@ -8,8 +8,12 @@ created: 2023-06-18
 - Interactive proofs
 - Standalone setting, i.e. no [[Random Oracle|ROM]], no [[Reference String|CRS]] or anything like that.
 
-# Definition
-For all (malicious) [[ppt]] verifiers $V^*$, there exists an [[Expected Polynomial Time]] simulator $S$ such that for all $(x,w)\in \mathcal{R}$
+# Formal definition
+As usual, the definition requires the existence of a simulator that can, without the witness, simulate anything a (malicious) verifier could learn from observing an honest proof.
+
+Formally,
+> [!definition] Definition of classical ZK
+> A protocol is zero knowledge if for all (malicious) [[Probabilistic Polynomial Time|ppt]] verifiers $V^*$, there exists an [[Expected Polynomial Time|ept]] simulator $S$ such that for all $(x,w)\in \mathcal{R}$
 $$\textrm{view}_{V^*}(P(x,w) \leftrightarrow V^*(x))\approx S(x)$$
 
 where $\textrm{view}_{V^*}(P(x,w) \leftrightarrow V^*(x)) = (x,r,m_1,\dots,m_n)$ denotes the distribution of the *view* of $V^*$ during execution of $P\leftrightarrow V^*$, i.e., 

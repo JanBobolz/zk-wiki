@@ -1,4 +1,4 @@
-/* Mirror changes to this file to /publish.css */
+/* Mirror changes to this file to /.obsidian/callouts.css */
 
 .callout[data-callout="protocol"] {
     --callout-color: var(--callout-success);

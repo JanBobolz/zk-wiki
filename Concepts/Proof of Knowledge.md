@@ -11,4 +11,5 @@ The proof of knowledge property states that in order to make the verifier $\math
 
 # Formal definitions
 ## Interactive proofs
+Advantage of the extractor over the verifier: extractor gets black-box access to the prover. 
 - [[Proof of Knowledge (Classical)|Classical definition]]
