@@ -91,8 +91,8 @@ We will revisit the definitions and look at examples to understand the basic mec
 ### Session 1.3 (2023-06-22): More example protocols
 For real this time: let's go through the example protocols and understand how they work. 
 To prepare, please read 
-- [[Zero Knowledge]]
-- [[Proof of Knowledge]]
+- [[Zero Knowledge]] (in particular [[Zero Knowledge (Classical)]], but don’t get too hung up on the details)
+- [[Proof of Knowledge]] (in particular [[Proof of Knowledge (Classical)]], but don’t get too hung up on the details)
 - [[Graph Isomorphism Protocol]]
 - [[Quadratic Residue Protocol]]
 - The [[3-Colorable Protocol]] in the [Lecture](https://www.youtube.com/watch?v=uchjTIlPzFo) ([slides](https://zk-learning.org/assets/Lecture1-2023-slides.pdf))
