@@ -84,3 +84,9 @@ $$\Pr[b=1 \land (x,w)\notin R_L \;|\; b\gets(P^*,V)(x); w\gets E^{P^*}(x)] = \ma
 
 ### Session 1.2 (2023-06-15): Example protocols
 We will revisit the definitions and look at examples to understand the basic mechanisms and tricks better.
+
+> [!info] I'll upload the material soon
+
+
+### Session 1.3 (2023-06-22): More example protocols
+For real this time: let's go through the example protocols and understand how they work. 

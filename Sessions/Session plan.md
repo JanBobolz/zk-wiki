@@ -7,7 +7,7 @@ created: 2023-04-21
 
 # Sessions
 ## 1: History and Basics
-2023-06-01 and 2023-06-15
+2023-06-01 and 2023-06-15 and 2023-06-22
 [[01 History and Basics]]
 
 ## 2: Modern SNARK overview
