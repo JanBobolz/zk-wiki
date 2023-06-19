@@ -85,8 +85,16 @@ $$\Pr[b=1 \land (x,w)\notin R_L \;|\; b\gets(P^*,V)(x); w\gets E^{P^*}(x)] = \ma
 ### Session 1.2 (2023-06-15): Example protocols
 We will revisit the definitions and look at examples to understand the basic mechanisms and tricks better.
 
-> [!info] I'll upload the material soon
+![[Pasted image 20230619163829.png]]
 
 
 ### Session 1.3 (2023-06-22): More example protocols
 For real this time: let's go through the example protocols and understand how they work. 
+To prepare, please read 
+- [[Zero Knowledge]]
+- [[Proof of Knowledge]]
+- [[Graph Isomorphism Protocol]]
+- [[Quadratic Residue Protocol]]
+- The [[3-Colorable Protocol]] in the [Lecture](https://www.youtube.com/watch?v=uchjTIlPzFo) ([slides](https://zk-learning.org/assets/Lecture1-2023-slides.pdf))
+
+Note any comments and questions you may have and bring them to the session. If you notice typos, you can also directly fix them on https://github.com/JanBobolz/zk-wiki. If you feel like writing (even small parts of) the [[3-Colorable Protocol]] entry, go for it! It would be appreciated 🙂. 

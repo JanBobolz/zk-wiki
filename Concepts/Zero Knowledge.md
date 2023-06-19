@@ -16,10 +16,11 @@ We formulate this as "whatever the verifier observes can also be computed (with 
 
 # Concrete definitions
 ## Interactive, classical setting
-Simulator's advantage over the honest prover: Simulator only has to output the post-hoc verifier view and can compute the transcript in any order it likes (while the actual prover has go through the proof in the order the verifier demands)
-
 - [[Zero Knowledge (Classical)|Micali-style ZK]] in standalone setting.
 - [[Special Honest-Verifier Zero Knowledge]] best known as a special feature of [[Sigma Protocol]]s, simple but powerful enough to be generically upgraded to stronger (dishonest verifier) ZK notions.
+
+> [!hint] Simulator advantage over the prover
+> The simulator only has to output the post-hoc verifier view and can internally compute messages of the transcript in any order it likes (in contrast, the actual prover has go through the proof in the normal order). 
 
 ## Interactive, [[Reference String|CRS]] setting
 - ...
