@@ -44,3 +44,16 @@ The [[Zero Knowledge (Classical)]] simulator $S(x)$ for (malicious) verifier $V^
 > In hybrid 2, we replace the unopened commitments with commitments to a dummy string $1$, and $a_i,a_j$ of the opened commitments are randomly picked such that $a_i\neq a_j$. Now the behavior of the simulator is identical to the one described above. Thanks to compuatational hiding of the commitment scheme, $S$'s output is computationally indistinguishable with the modified simulator in hybrid 1. 
 
 ## The [[Proof of Knowledge (Classical)|PoK]] property
+The knowldge extractor $\mathcal{E}^{P^*}(V,E)$ simply keeps rewinding $P^*$ and feeds $P^*$ with $e\in E$ without replacement. If $P^*$ fails to convince $V$ at any point, $\mathcal{E}$ terminates. If $\mathcal{E}$ runs out of all possible challenges in $E$, then it outputs $a_i$ for all $v_i\in V$ as a witness (i.e., the color assigments). 
+
+### Running time of $\mathcal{E}$
+Since $|E|<n^2$, the running time of $\mathcal{E}$ is at most $n^2$.
+
+### Success probability of $\mathcal{E}$
+$\mathcal{E}$ succeeds as long as $P^*$ sends valid responses to all possible $e\in E$ for a fixed set of commitments $c_1,\ldots,c_n$. This is because each $c_i$ can only be opened to a unique $a_i$ due to perfect binding and every adjacent $a_i,a_j$ are guaranteed to be distinct by the verification condition. To evaluate the success probability of $\mathcal{E}$, consider the matrix $M$ indexed by prover's random coin $\rho$ and challenge $e\in E$. We define $M$ such that $M(\rho,e)=1$ if $P^*$ with random coin $\rho$ convinces the verifier with challenge $e$, and $0$ otherwise. We also define $M$'s weight of the $\rho$-th row: $W_\rho = |\{e\in E \mid M(\rho,e)=1\}|$. Then $\mathcal{E}$'s success probability is given as follows:
+    $$\Pr_{\rho,e}[M(\rho,e)=1 \land W_\rho = |E|]$$
+which equals
+    $$\Pr_{\rho,e}[M(\rho,e)=1] - \Pr_{\rho,e}[M(\rho,e)=1 \land W_\rho<|E|]\geq \Pr_{\rho,e}[M(\rho,e)=1] - \Pr_{\rho,e}[M(\rho,e)=1| W_\rho<|E|]\geq \Pr_{\rho,e}[M(\rho,e)=1] - (1-1/|E|)$$
+
+Note that the first term corresponds to the probability that $P^*$ convinces $V$. 
+Therefore, we have that the protocol is knowledge sound with knowledge error $\kappa = 1-1/|E|$. 
