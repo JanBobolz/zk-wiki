@@ -13,7 +13,8 @@ created: 2023-05-03
 (to be filled **before** the session)
 
 ## 📚 Material
-(to be filled **before** the session)
+- [Lecture](https://youtu.be/bGEXYpt3sj0) ([slides](https://zk-learning.org/assets/Lecture2-2023.pdf))
+Additional (optional) material can be found on https://zk-learning.org.
 
 ## 📝 Notes
 (to be filled **during** the sesion)

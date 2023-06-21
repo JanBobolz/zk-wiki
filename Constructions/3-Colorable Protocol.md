@@ -4,8 +4,6 @@ tags: []
 created: 2023-06-18
 ---
 
-> [!info] No content yet 🚧. Feel free to [[Homepage|contribute]] and make this page a reality 🙂
-
 # Relation
 $$\mathcal{R} = \{((V,E),f:V\to \{1,2,3\}) \mid \forall (v_i,v_j)\in E, f(v_i)\neq f(v_j)\}$$ 
 That is, two adjacent nodes are assigned distinct colors. 
