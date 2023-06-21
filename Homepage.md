@@ -18,3 +18,4 @@ Welcome to the zero-knowledge reading group wiki.
 ## Every time
 4. Edit with Obsidian
 5. Commit/push changes via git.
+	- It may take a while before the changes are reflected on the website.
