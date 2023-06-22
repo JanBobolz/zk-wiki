@@ -52,7 +52,7 @@ The protocol then works as follows.
 - [[3-Colorable Protocol]]
 	- Splits "$\sigma$ is a valid 3-coloration for $G=(V,E)$" into "$\sigma$ assigns the nodes $a,b$ different colors" for each edge $(a,b)\in E$.
 - [[Stern-like ZK]]
-	- Class of protocols for ZK proofs for Lattice problems with applications to post-quantum secure protocols, e.g. [KTX identification scheme](https://www.iacr.org/archive/asiacrypt2008/53500376/53500376.pdf).
+	- Class of protocols for [[Lattice ZK|ZK proofs for Lattice problems]] with applications to post-quantum secure protocols, e.g. [KTX identification scheme](https://www.iacr.org/archive/asiacrypt2008/53500376/53500376.pdf).
 - [[MPC in the Head]]
 	- Splits the statement into pairs of views of participants of an [[MPC]] protocol that verifies that statement.
 
