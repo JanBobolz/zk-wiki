@@ -33,7 +33,7 @@ Following the [[Cut-and-Choose#The protocol]] template:
 > [!protocol] Protocol between $P(N,y,w)$ and $V(N,y)$
 > - **Announcement**: Prover chooses a random $r\gets\mathbb{Z}_N^*$ and sends announcement $a = r^2$.
 > - **Challenge**: The verifier chooses a random challenge $c\gets\{0,1\}$ (challenging the prover to reveal the square root of $a\cdot y^c$).
-> - **Response**: The prover reveals $z = \begin{cases} r & c=0 \\ r\cdot r\cdot w  & c = 1\end{cases}$
+> - **Response**: The prover reveals $z = \begin{cases} r & c=0 \\ r\cdot w  & c = 1\end{cases}$
 > - The verifier checks that $y\in\mathbb{Z}_N^*$ and $z^2 = a\cdot y^c$.
 
 > [!info] Optimization of the [[Cut-and-Choose]] template
