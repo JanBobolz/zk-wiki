@@ -28,7 +28,7 @@ where $E^{P^*}$ denotes that $E$ gets [[Oracle Access]] to the function $(x;r;\v
 The following definition is not really useful in practice, but allows for simplified proofs. For this definition, we assume for simplicity that the prover has probability 1 to convince the honest verifier.
 
 > [!definition] Definition: toy definition of proof of knowledge
-> A protocol is a *proof of knowledge against perfect provers if there exists a [[Probabilistic Polynomial Time|ppt]] extractor $E$ such that for all (malicious, [[Probabilistic Polynomial Time|ppt]]) provers $P^*$ and all $x$, $$\text{if }\Pr[P^*(x)\leftrightarrow V(x) \rightarrow 1] = 1\text{, then } \Pr[(x, E^{P^*}(x)) \in \mathcal{R}] = 1$$
+> A protocol is a *proof of knowledge against perfect provers* if there exists a [[Probabilistic Polynomial Time|ppt]] extractor $E$ such that for all (malicious, [[Probabilistic Polynomial Time|ppt]]) provers $P^*$ and all $x$, $$\text{if }\Pr[P^*(x)\leftrightarrow V(x) \rightarrow 1] = 1\text{, then } \Pr[(x, E^{P^*}(x)) \in \mathcal{R}] = 1$$
 
 > [!warning] Warning: this definition does not actually give any useful guarantees in practice, it’s just a simplification so that we can illustrate some security proofs.
 

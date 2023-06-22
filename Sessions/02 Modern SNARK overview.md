@@ -10,7 +10,7 @@ created: 2023-05-03
 <small>(Duties: Take Obsidian notes during the session 📝. Moderate to get input for the wiki pages 🧠. Make people summarize / dumb down discussion results to keep things comprehensible for everyone 🧑‍⚖️.)</small>
 
 ## 🎯 Goals
-This session serves as a bird's-eye overview of recent (ZK)SNARKs and real-world applications. We will particularly focus on the following contents from Lecture 2. 
+This session serves as a bird's-eye overview of recent (ZK)SNARKs and real-world applications. We will particularly focus on the following contents from Lecture 2 (see [[#📚 Material]]). 
 
 1. SNARK overview
     - Parse "Succinct Non-interactive ARgument of Knowledge"

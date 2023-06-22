@@ -57,3 +57,6 @@ which equals
 
 Note that the first term corresponds to the probability that $P^*$ convinces $V$. 
 Therefore, we have that the protocol is knowledge sound with knowledge error $\kappa = 1-1/|E|$. 
+
+# Resources
+- [Matt Green Blog Post, simple explanation](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
