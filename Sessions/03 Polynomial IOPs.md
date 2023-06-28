@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags: [session]
-created: {{date}}
+created: 2023-06-28
 ---
 
 **🪑 Session chair:** ??
@@ -14,7 +14,7 @@ created: {{date}}
 (to be filled **before** the session)
 
 ## 📚 Material
-(to be filled **before** the session)
+- [Lecture](https://www.youtube.com/watch?v=4018OYyoAf8) ([Slides](https://zk-learning.org/assets/lecture4.pdf))
 
 ## 📝 Notes
 (to be filled **after** each subsession)

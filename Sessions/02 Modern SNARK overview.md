@@ -6,7 +6,7 @@ created: 2023-05-03
 
 **🪑 Session chair:** Akira
 <small>(Duties: Read material above-average carefully 🤓; prepare fallback discussions/questions (worst-case: just prepare some quiz questions about the material) 🙋. Prepare a few slides to guide the session through subtopics (this is <i>not</i> supposed to be a <i>detailed</i> summary of the material)</small>
-**✍️ Notetaker:** Jan 
+**✍️ Notetaker:** Jan/Akira 
 <small>(Duties: Take Obsidian notes during the session 📝. Moderate to get input for the wiki pages 🧠. Make people summarize / dumb down discussion results to keep things comprehensible for everyone 🧑‍⚖️.)</small>
 
 ## 🎯 Goals
@@ -19,7 +19,7 @@ This session serves as a bird's-eye overview of recent (ZK)SNARKs and real-world
 
 2. Paradigm of building SNARKs
     - IOP + FCOM = SNARK
-    - Schwartz-Zippel lemma
+    - [[Schwartz-Zippel]] lemma
     - Example: Poly-IOP for equality test
     - Example: Poly-IOP for set inclusion test
 
