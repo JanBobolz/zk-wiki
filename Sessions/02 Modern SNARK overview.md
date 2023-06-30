@@ -32,6 +32,8 @@ You are encouraged to think about the following questions before the session sta
 3. Why is preprocessing useful? 
 4. In the equality test protocol, what happens if the prover doesn't respect the degree bound?
 5. In the set inclusion test protocol, what happens if the oracle $q$ sent by the prover is not a polynomial?
+6. How should (knowledge) soundness and ZK be defined for IOPs?
+7. When compiling IOP, what properties should the functional commitment satisfy to obtain zkSNARK?
 
 
 ## 📚 Material
