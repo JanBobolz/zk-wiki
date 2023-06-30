@@ -30,8 +30,13 @@ You are encouraged to think about the following questions before the session sta
 2. What are the statement and witness in the photo-processing example?
     - What kind of attack would be possible if the signature is missing?
 3. Why is preprocessing useful? 
-4. In the equality test protocol, what happens if the prover doesn't respect the degree bound?
-5. In the set inclusion test protocol, what happens if the oracle $q$ sent by the prover is not a polynomial?
+5. In the equality test protocol, what happens if the prover doesn't respect the degree bound?
+6. In the set inclusion test protocol, what happens if the oracle $q$ sent by the prover is not a polynomial?
+7. [[Schwartz-Zippel]] applications. If I give you oracle access to polynomials $f,g,h\in\mathbb{F}_p$ (i.e. a box you give $x$ and it replies with $f(x)\in\mathbb{F}_p$ (or $g(x)$ or $h(x)$ depending on what you want), how do you
+	- Check that $f = 0$ ? (i.e. $f$ is the zero polynomial; all its coefficients are zero)
+	- Check that $f = g$ ?
+	- Check that $f = g\cdot h$ ?
+	- How likely is it that your test fails?
 
 
 ## 📚 Material
