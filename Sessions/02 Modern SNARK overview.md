@@ -32,7 +32,12 @@ You are encouraged to think about the following questions before the session sta
 3. Why is preprocessing useful? 
 4. In the equality test protocol, what happens if the prover doesn't respect the degree bound?
 5. In the set inclusion test protocol, what happens if the oracle $q$ sent by the prover is not a polynomial?
-6. How should (knowledge) soundness and ZK be defined for IOPs?
+6. [[Schwartz-Zippel]] applications. If I give you oracle access to polynomials $f,g,h\in\mathbb{F}_p$ (i.e. a box you give $x$ and it replies with $f(x)\in\mathbb{F}_p$ (or $g(x)$ or $h(x)$ depending on what you want), how do you
+	- Check that $f = 0$ ? (i.e. $f$ is the zero polynomial; all its coefficients are zero)
+	- Check that $f = g$ ?
+	- Check that $f = g\cdot h$ ?
+	- How likely is it that your test fails?
+8. How should (knowledge) soundness and ZK be defined for IOPs?
 7. When compiling IOP, what properties should the functional commitment satisfy to obtain zkSNARK?
 
 
