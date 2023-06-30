@@ -12,12 +12,13 @@ created: 2023-04-21
 
 ## 2: Modern SNARK overview
 First steps towards understanding modern SNARKs (current goal: [[PLONK]])
-*June 29 and July 9*
+*June 29 and July 6*
 [[02 Modern SNARK overview]]
 
-## 3: Polynomial IOPs
+## 3: Simple PLONK
+We will understand the basic PolyIOP gadgets while looking at PLONK as an example. The session also includes a quick overview of the KZG polynomial commitment. 
 *July 13 and 20*
-[[03 Polynomial IOPs]]
+[[03 Simple PLONK]]
 
 # Planned but not sessioned
 - Rest of https://zk-learning.org
