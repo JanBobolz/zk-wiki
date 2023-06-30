@@ -78,4 +78,4 @@ It's like an interactive protocol, but instead of sending a message, the prover 
 > Indeed, when instantiating the [[Interactive oracle proof|IOP]], we will replace the "box" with a [[Functional Commitment]], ensuring that the prover cannot change its mind about $f$ after seeing $x$.
 
 ### Subsession 2 (July 6)
-...
+Plan: A closer look at the toy example for some of the IOP techniques.
