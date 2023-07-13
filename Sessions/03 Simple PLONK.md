@@ -19,10 +19,20 @@ This session covers the KZG commitment and PLONKish PolyIOP. We will particularl
     - Security will be covered in the next session
 
 2. Simple-PLONK PolyIOP
-    - Gadgets for univariate polynomials: ZeroTest, SumCheck, ProdCheck, (Prescribed) Permutation Check
+    - Gadgets for univariate polynomials: ZeroTest, SumCheck, ProdCheck, (Prescribed) Permutation Check (cf. [[Univariate Poly Tricks]])
     - PLONK's arithmetization
 
 ## ❓ Quiz Questions
+### KZG
+- Why does $\tau$ have to bee discarded? How would you break the binding property using $\tau$?
+- What does the Lagrange ”selector” polynomial $\lambda_i$ do?
+- Can you safely publish both the “normal” KZG pp and the “Lagrange” KZG pp at the same time?
+- If proofs are so much shorter, why don’t we just use KZG as a vector commitment everywhere instead of Merkle trees?
+
+### Polynomial gadgets
+- What’s the advantage of using the subgroup $\Omega = \langle \omega \rangle \subset\mathbb{Z}_p^*$ as a set for the ZeroTest/ProdCheck?
+- Can we do an efficient ZeroTest/ProdCheck on arbitrary subsets? Or do we crucially need the subgroup properties? 
+- What is the role of the second polynomial variable ($Y$) in the prescribed permutation check?
 
 ## 📚 Material
 - [Lecture](https://youtu.be/A0oZVEXav24) ([Slides](https://zk-learning.org/assets/lecture5-2023.pdf))
