@@ -43,4 +43,21 @@ This session covers the KZG commitment and PLONKish PolyIOP. We will particularl
 - [PLONK arithmetization](https://hackmd.io/@jake/plonk-arithmetization)
 
 ## 📝 Notes
-(to be filled **after** each subsession)
+### Subsession 1 (July 13)
+#### Overview of KZG Polynomial Commietment
+- To support polynomials of degree at most $d$ as input, $\mathsf{KeyGen}$ of KZG must be run by a trusted party who makes sure to ``forget'' the secret exponent $\tau$. Revealing $\tau$ is devastating in many ways. For example, it is easy to break evaluation binding with the knowledge of $\tau$: 
+    1. Given $f$, generate a commitment $\mathsf{com}=g^{f(\tau)}$
+    2. Upon receiving an evaluation point $u$, pick an arbitrary fake statement $v\neq f(u)$. Generate a fake opening proof $\pi=g^{(f(\tau)-v)/(\tau-u)}$. Such $\pi$ always gets accepted by a verifier.
+- With known $\tau$, one can generate arbitrary power of tau $g^{\tau^i}$, which also allows to break the maximum degree bound of supported polynomials. 
+- To verify KZG opening proof, the verifer does not need to know the entire SRS---only $h^\tau$ is sufficient. This is because the verification equation is simply $e(\mathsf{com}/g^v,h)=e(\pi,h^{\tau}/h^u)$.
+- Some times, the input polynomial is represented in point-value form rather than a vector of coefficients. In that case, it is more convenient to turn the SRS into Lagrange form 
+$(g^{\lambda_i(\tau)})_{i=0,\ldots d}$.
+Then the committing operation only takes linear time in $d$, instead of $O(d\log d)$ spent on NTT to move to the coefficient representation.
+- Feist-Khovratovich algorithm for fast multi-point proof generation
+    - To generate KZG proofs for opening proofs in  $\Omega\subset\mathbb{F}$ such that $|\Omega|=d$, a naive method requires $O(d^2)$ time if $\deg(f) = d$.
+    - The FK algorithm can speed it up to achieve $O(d\log d)$, taking advantage of NTT!
+
+#### Commit-and-Prove IOP gadgets
+- The vanishing polynomial of $\Omega\subset\mathbb{F}$ of size $k$ is $Z_\Omega(X):=\prod_{a\in\Omega}(X-a)$. By choosing $\Omega=\{\omega^i\}_{i=0,\ldots,k-1}$ where $\omega\in\mathbb{F}$ is a primitive $k$-th root of unity, the vanishing polynomial $Z_\Omega(X)=X^k-1$ splits completely in $\mathbb{F}[X]$. This form is easy to deal with, because evaluation of of $Z_\Omega$ is simple double-and-add and only takes $\log_2 k$ field multiplications.
+- Compiled ZeroTest on $\Omega$ can be slightly optimized using KZG. That is, the prover directly computes $\pi=g^{q(\tau)}=g^{f(\tau)/{Z_\Omega(\tau)}}$ as amortized opening proofs for $\mathsf{com}=g^{f(\tau)}$. The verifier can check $e(\mathsf{com},h)=e(\pi,h^{Z_\Omega(\tau)})$
+- 

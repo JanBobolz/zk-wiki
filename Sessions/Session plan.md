@@ -20,6 +20,13 @@ We will understand the basic PolyIOP gadgets while looking at PLONK as an exampl
 July 13 and 20
 [[03 Simple PLONK]]
 
+## 4: Polynomial Commitments based on Discrete Log
+July 27
+[[04 Polynomial Commitments based on DL]]
+
+## 5: Polynomial Commitments based on Error Correcting Code
+[[05 Polynomial Commitments based on ECC]]
+
 # Planned but not sessioned
 - Rest of https://zk-learning.org
 - [[Lattice ZK]] from https://lattices-meet-hashes23.epfl.ch/program.html
