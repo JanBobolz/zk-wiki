@@ -26,7 +26,7 @@ This session covers code-based polynomial commitments. We will particularly focu
 
 
 ## 📚 Material
-- [Lecture](https://youtu.be/1S7ZjqG9uyI) ([Slides](https://zk-learning.org/assets/lecture7-2023.pdf))
+- [Lecture](https://youtu.be/1S7ZjqG9uyI) ([Slides](https://zk-learning.org/assets/lecture7.pdf))
 
 ## 📝 Notes
 ### Subsession 1 (July 27)
