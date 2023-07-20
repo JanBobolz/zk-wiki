@@ -17,11 +17,11 @@ June 29 and July 6
 
 ## 3: Simple PLONK
 We will understand the basic PolyIOP gadgets while looking at PLONK as an example. The session also includes a quick overview of the KZG polynomial commitment. 
-July 13 and 20
+July 13, 20, and 27
 [[03 Simple PLONK]]
 
 ## 4: Polynomial Commitments based on Discrete Log
-July 27
+*After the break*
 [[04 Polynomial Commitments based on DL]]
 
 ## 5: Polynomial Commitments based on Error Correcting Code
