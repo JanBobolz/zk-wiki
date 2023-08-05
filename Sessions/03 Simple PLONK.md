@@ -43,7 +43,7 @@ This session covers the KZG commitment and PLONKish PolyIOP. We will particularl
 - [PLONK arithmetization](https://hackmd.io/@jake/plonk-arithmetization)
 
 ## 📝 Notes
-### Subsession 1 (July 13)
+### Subsession 1-3 (July 13, 20, 27)
 #### Overview of KZG Polynomial Commietment
 - To support polynomials of degree at most $d$ as input, $\mathsf{KeyGen}$ of KZG must be run by a trusted party who makes sure to ``forget'' the secret exponent $\tau$. Revealing $\tau$ is devastating in many ways. For example, it is easy to break evaluation binding with the knowledge of $\tau$: 
     1. Given $f$, generate a commitment $\mathsf{com}=g^{f(\tau)}$
@@ -58,6 +58,47 @@ Then the committing operation only takes linear time in $d$, instead of $O(d\log
     - The FK algorithm can speed it up to achieve $O(d\log d)$, taking advantage of NTT!
 
 #### Commit-and-Prove IOP gadgets
+##### Zero Test on $\Omega$: $f(a)=0, \forall a\in\Omega$
 - The vanishing polynomial of $\Omega\subset\mathbb{F}$ of size $k$ is $Z_\Omega(X):=\prod_{a\in\Omega}(X-a)$. By choosing $\Omega=\{\omega^i\}_{i=0,\ldots,k-1}$ where $\omega\in\mathbb{F}$ is a primitive $k$-th root of unity, the vanishing polynomial $Z_\Omega(X)=X^k-1$ splits completely in $\mathbb{F}[X]$. This form is easy to deal with, because evaluation of of $Z_\Omega$ is simple double-and-add and only takes $\log_2 k$ field multiplications.
 - Compiled ZeroTest on $\Omega$ can be slightly optimized using KZG. That is, the prover directly computes $\pi=g^{q(\tau)}=g^{f(\tau)/{Z_\Omega(\tau)}}$ as amortized opening proofs for $\mathsf{com}=g^{f(\tau)}$. The verifier can check $e(\mathsf{com},h)=e(\pi,h^{Z_\Omega(\tau)})$
-- 
+
+##### Product Check on $\Omega$: $\prod_{a\in\Omega}f(a)=1$
+- Core idea: (1) Construct a degree-$k$ polynomial $t(X)$ which encodes "the $s$-th parttial product of $f$" (i.e. $\prod_{i=0}^s f(\omega^i)$) at $\omega^s$ for $s=0,\ldots,k-1$, and (2) invoke Zero Test on $\Omega$ for the polynomial $t_1(X):= t(\omega X) - t(X)f(\omega X)$.
+- Q. How many queries does the verifier make? - 5
+    - $q=t_1/Z_\Omega$ at $r$
+    - $f$ at $\omega r$
+    - $t$ at $\omega^{k-1}$, $r$, and $\omega r$
+
+##### Permutation Check: $f(\omega^i)_{i=0}^{k-1}=W(g(\omega^i)_{i=0}^{k-1})$ for some permutation $\Omega$
+- Q. To prove $f$ is a permutation of $g$, why can't we just rely on the equality check for $\hat{f}(a)=\prod_{a\in\Omega}(X-f(a))$ and $\hat{g}(a)=\prod_{a\in\Omega}(X-g(a))$? 
+    - A. Without Product Check, the verifier cannot (efficiently) check that $\hat{f},\hat{g}$ are correctly constructed from $f,g$
+- Q. Why 6 queries? 
+    - $q=t_1/Z_\Omega$ at $r$
+    - $f$ at $\omega r$
+    - $g$ at $\omega r$
+    - $t$ at $\omega^{k-1}$, $r$, and $\omega r$
+
+##### Prescribed Permutation Check: $f(y)-g(W(y))=0, \forall y\in\Omega$ 
+- Naive approach (i.e. invoking Zero Test on $f(X)-g(W(X))$) is still okay for constructing SNARK *in theory*.
+    - Linear time prover is usually not a requirement for SNARK. We only care about the verification time and proof size. 
+
+#### Simple-PLONK
+- Remark: The original PLONK construction encodes left, right, output wires separately into polynomials $f_L,f_R, f_O$, respectively. The present  construction simplifies it by combining them in a single $T$ of degree $3|C|+|I|$. 
+
+- The selector polynomial $S$ only encodes binary info, but if we need more gate types than just addition and multiplication, we can generalize $S$ in a straightforward manner. 
+
+- We can construct PolyIOP for PLONK constraint systems by taking advantage of the above commit-and-prove gadgets: 
+1. Input Check: $T(y)-v(y)=0,\forall a\in\Omega_{inp}$ 
+2. Gate-by-Gate Check: $F(y):=S(y)(T(y)+T(\omega y)) + (1-S(y))T(y)T(\omega y)=T(\omega^2 y)$
+3. Wiring Check: $T(y)=T(W(y)),\forall y\in\Omega$
+
+- Q. Why the soundness error $7|C|/p$? 
+    - A. In Gate-by-Gate Check (realized by Zero Check on the polynomial F(X)), the prover sends $q=F/Z_{\Omega}$ which has degree at most $7|C|$ because:
+        - $\deg(S) = 3|C|$;
+        - $\deg(T(X)\cdot T(\omega X)) = 2\cdot(3|C|+|I|)$;
+        - $\deg(Z_\Omega) = 3|C|$;
+        - assuming $|I|\ll|C|$;
+        - and therefore, $\deg(f)=\deg(S)+\deg(T(X)\cdot T(\omega X))-\deg(Z_\Omega)<7|C|$
+
+- Q. On page 53, why $S$ and $W$ are "untrusted"? 
+    - A. Anyone can publicly check that $S$ and $W$ are correctly constructed from the circuit constraints (in the offline phase). No need to rely on any trusted third party generating them correctly. 
