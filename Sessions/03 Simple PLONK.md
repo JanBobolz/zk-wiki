@@ -45,7 +45,7 @@ This session covers the KZG commitment and PLONKish PolyIOP. We will particularl
 ## 📝 Notes
 ### Subsession 1-3 (July 13, 20, 27)
 #### Overview of KZG Polynomial Commietment
-- To support polynomials of degree at most $d$ as input, $\mathsf{KeyGen}$ of KZG must be run by a trusted party who makes sure to ``forget'' the secret exponent $\tau$. Revealing $\tau$ is devastating in many ways. For example, it is easy to break evaluation binding with the knowledge of $\tau$: 
+- To support polynomials of degree at most $d$ as input, $\mathsf{KeyGen}$ of KZG must be run by a trusted party who makes sure to „forget“ the secret exponent $\tau$. Revealing $\tau$ is devastating in many ways. For example, it is easy to break evaluation binding with the knowledge of $\tau$: 
     1. Given $f$, generate a commitment $\mathsf{com}=g^{f(\tau)}$
     2. Upon receiving an evaluation point $u$, pick an arbitrary fake statement $v\neq f(u)$. Generate a fake opening proof $\pi=g^{(f(\tau)-v)/(\tau-u)}$. Such $\pi$ always gets accepted by a verifier.
 - With known $\tau$, one can generate arbitrary power of tau $g^{\tau^i}$, which also allows to break the maximum degree bound of supported polynomials. 
