@@ -33,4 +33,4 @@ This session covers detailed syntax and security properties of discrete logarith
 - [Lecture](https://youtu.be/WyT5KkKBJUw) ([Slides](https://zk-learning.org/assets/lecture6.pdf))
 
 ## 📝 Notes
-### Subsession 1 (July 27)
+### Subsession 1 (September 12)

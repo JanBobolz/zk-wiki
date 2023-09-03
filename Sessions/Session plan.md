@@ -21,7 +21,8 @@ July 13, 20, and 27
 [[03 Simple PLONK]]
 
 ## 4: Polynomial Commitments based on Discrete Log
-*After the break*
+We will study the KZG and Bulletproofs-based commitments in detail. 
+September 12.
 [[04 Polynomial Commitments based on DL]]
 
 ## 5: Polynomial Commitments based on Error Correcting Code
