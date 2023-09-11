@@ -28,8 +28,8 @@ This session covers detailed syntax and security properties of discrete logarith
 
 ## ❓ Quiz Questions
 - Why is the $q$-power knowledge of exponent assumption true in GGM?
-- Why $\hat{c}=g^{\alpha f(\tau)}$ can be dropped in the AGM while it cannot in the GGM?
-- If the KZG commitment is randomized i.e. $c=g^{f(\tau)+r\beta}$, how many evaluations can be revealed to prove ZK? Can we modify the commitment such tha the scheme is even ZK for arbitrarily many evaluations?
+- Why $\hat{c}=g^{\alpha f(\tau)}$ can be dropped if we are to prove knowledge soundness of KZG directly in the GGM?
+- If the KZG commitment is randomized i.e. $c=g^{f(\tau)+r\eta}$, what does the verification operatoin look like? How many evaluations can be revealed to prove ZK? 
 - What does the complete protocol for batch opening look like?
 - Does Bulletproofs-PCom satisfy evaluation binding?
 - What's the intuition of knowledge soundness of Bulletproofs-PCom?
