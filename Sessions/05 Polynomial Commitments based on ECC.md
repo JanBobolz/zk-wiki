@@ -4,7 +4,7 @@ tags: [session]
 created: 2023-07-18
 ---
 
-**🪑 Session chair:** ?
+**🪑 Session chair:** Jan
 <small>(Duties: Read material above-average carefully 🤓; prepare fallback discussions/questions (worst-case: just prepare some quiz questions about the material) 🙋. Prepare a few slides to guide the session through subtopics (this is <i>not</i> supposed to be a <i>detailed</i> summary of the material)</small>
 
 **✍️ Notetaker:** ?

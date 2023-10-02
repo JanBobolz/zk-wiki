@@ -14,7 +14,7 @@ created: 2023-07-18
 This session covers detailed syntax and security properties of discrete logarithm-based polynomial commitments. We will particularly focus on the following contents from Lecture 6 (see [[#📚 Material]]). 
 
 1. Security of KZG
-    - Binding, evalution binding, knowledge soundness, hiding
+    - Binding, evaluation binding, knowledge soundness, hiding
     - Why KZG is evaluation binding under the $d$-SDH assumption
     - Why KZG is knowledge sound under the $d$-KoE assumption
     - How to make KZG hiding
@@ -29,7 +29,7 @@ This session covers detailed syntax and security properties of discrete logarith
 ## ❓ Quiz Questions
 - Why is the $q$-power knowledge of exponent assumption true in GGM?
 - Why $\hat{c}=g^{\alpha f(\tau)}$ can be dropped if we are to prove knowledge soundness of KZG directly in the GGM?
-- If the KZG commitment is randomized i.e. $c=g^{f(\tau)+r\eta}$, what does the verification operatoin look like? How many evaluations can be revealed to prove ZK? 
+- If the KZG commitment is randomized i.e. $c=g^{f(\tau)+r\eta}$, what does the verification operation look like? How many evaluations can be revealed to prove ZK? 
 - What does the complete protocol for batch opening look like?
 - Does Bulletproofs-PCom satisfy evaluation binding?
 - What's the intuition of knowledge soundness of Bulletproofs-PCom?
