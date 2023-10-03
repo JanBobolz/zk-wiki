@@ -33,9 +33,9 @@ September 12, 19.
 [[04 Polynomial Commitments based on DL]]
 
 ## 5: Polynomial Commitments based on Error Correcting Codes
-[[05 Polynomial Commitments based on ECC]]
-
 October 10, 17.
+
+[[05 Polynomial Commitments based on ECC]]
 
 # Planned but not sessioned
 - Rest of https://zk-learning.org
