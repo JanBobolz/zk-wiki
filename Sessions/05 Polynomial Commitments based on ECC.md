@@ -47,7 +47,7 @@ This session covers code-based polynomial commitments. We will particularly focu
 6. For the proximity test optimization of having the prover send the word ($r\cdot \mathrm{coefficientMatrix}$) instead of the code $r\cdot \mathsf{ReedSolomon}(\mathrm{coefficientMatrix})$, how does the verifier compute the code in time $\mathcal{O}(\sqrt{d})$ (or at least the values from the code he needs to check consistency with the committed columns)? (can he, actually? Slides do claim that runtime)
 
 ### Towards linear-time computable ECC-based polynomial commitments
-- What's the issue with the Reed-Solomon-based $\sqrt(d)$ construction above? Regarding space and time?
+- What's the issue with the Reed-Solomon-based $\sqrt{d}$ construction above? Regarding space and time?
 - How do expander graphs correspond to a coding scheme?
 		- How can this be generalized beyond $\mathbb{F}_2$? (I don't have an answer, I don't think it was explained in the material) 
 - Can anyone summarize the strategy for getting the nice recursive codes?
@@ -57,3 +57,7 @@ This session covers code-based polynomial commitments. We will particularly focu
 
 ## 📝 Notes
 ### Subsession 1 (Oct 10)
+Reed-Solomon Codes & $\sqrt{d}$ proof size polynomial commitment from ECC.
+
+### Subsession 2 (Oct 17)
+How to improve the $\sqrt{d}$.
