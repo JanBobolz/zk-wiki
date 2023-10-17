@@ -37,6 +37,12 @@ October 10, 17.
 
 [[05 Polynomial Commitments based on ECC]]
 
+## 6: Polynomial Commitments based on FRI
+October 24.
+
+[[06 Polynomial Commitments based on FRI]]
+
 # Planned but not sessioned
 - Rest of https://zk-learning.org
+- Some understanding of folding schemes (relaxed R1CS and such)
 - [[Lattice ZK]] from https://lattices-meet-hashes23.epfl.ch/program.html
