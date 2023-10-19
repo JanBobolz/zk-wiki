@@ -3,6 +3,10 @@ aliases: []
 tags: []
 created: 2023-10-18
 ---
+$\newcommand{\FF}{\mathbb{F}}$
+$\newcommand{\idx}{\mathsf{i}}$
+$\newcommand{\stm}{\mathsf{x}}$
+$\newcommand{\wit}{\mathsf{w}}$
 
 # Main Idea 
 Groth16 can be viewed as an optimized variant of [[Pinocchio]] and is designed for [[Pinocchio#QAP]] relation. On a high-level, Groth16 manages to reduce the number of proof elements to 3 by stashing the following additional elements to $A,B,C$: 
