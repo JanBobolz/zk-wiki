@@ -69,7 +69,7 @@ Analogously to [[Pinocchi#Pinocchio with public inputs]], we can adjust the abov
 >   - $[x^i]_1$ for $i=1,\ldots,d-1$
 >   - $[x^i]_2$ for $i=1,\ldots,d-1$
 >   - $[(x^i t)\delta^{-1}]_2$ for $i=0,\ldots,d-2$
->   - $[\alpha]_1, [\beta]_2, [\gamma]_2, [\delta]_2$
+>   - $[\alpha]_1, {\color{red} [\beta]_1},[\beta]_2, [\gamma]_2, {\color{red} [\delta]_1},[\delta]_2$
 >   - $[ (\beta u_i + \alpha v_i+w_i)\gamma^{-1}]$ for $i=0,\ldots,\ell$
 >   - $[ (\beta u_i + \alpha v_i+w_i)\delta^{-1}]$ for $i=\ell+1,\ldots,m$
 > - **Prove**: $P(\sigma,(a_i)_{i\in [0,m]})$ outputs $\pi = (A,B,C)$ where
