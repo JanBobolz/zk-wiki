@@ -62,7 +62,7 @@ In what follows, we assume the type-I pairing for simplicity.
 >   - $[\alpha_u]_2, [\alpha_v]_1, [\alpha_w]_2, [\beta]_2$
 >   - $[\alpha_u u_i]_1,[\alpha_v v_i]_2,[\alpha_w w_i]_1$ for $i=0,\ldots,m$
 >   - $[\beta (u_i+v_i+w_i)]$ for $i=0,\ldots,m$
-> - **Prove**: $P(\sigma,(a_i)_{i\in [0,m]})$ outputs $\pi = (A,B,C,D)$ where
+> - **Prove**: $P(\sigma,(a_i)_{i\in [0,m]})$ outputs $\pi = (A,A',B,B',C,C',D,E)$ where
 >   - $A = [\sum_{i=0}^m a_i u_i ]_1$, $A' = [\sum_{i=0}^m a_i \alpha_u u_i ]_1$
 >   - $B = [\sum_{i=0}^m a_i v_i ]_2$, $B' = [\sum_{i=0}^m a_i \alpha_v v_i ]_2$
 >   - $C = [\sum_{i=0}^m a_i w_i ]_1$, $C' = [\sum_{i=0}^m a_i \alpha_w w_i ]_1$
@@ -84,13 +84,13 @@ Now it is easy to account for public inputs $a_1,\ldots,a_\ell$. All we need to 
 >   - $[\alpha_u]_2, [\alpha_v]_1, [\alpha_w]_2, [\beta]_2$
 >   - $[\alpha_u u_i]_1,[\alpha_v v_i]_2,[\alpha_w w_i]_1$ for $i=0,\ldots,m$
 >   - $[\beta (u_i+v_i+w_i)]$ for $i=0,\ldots,m$
-> - **Prove**: $P(\sigma,(a_i)_{i\in [0,m]})$ outputs $\pi = (A,B,C,D)$ where
+> - **Prove**: $P(\sigma,(a_i)_{i\in [0,m]})$ outputs $\pi = (A,A',B,B',C,C',D,E)$ where
 >   - $A = [\sum_{i=\ell+1}^m a_i u_i ]_1$, $A' = [\sum_{i=\ell+1}^m a_i \alpha_u u_i ]_1$
 >   - $B = [\sum_{i=\ell+1}^m a_i v_i ]_2$, $B' = [\sum_{i=\ell+1}^m a_i \alpha_v v_i ]_2$
 >   - $C = [\sum_{i=\ell+1}^m a_i w_i ]_1$, $C' = [\sum_{i=\ell+1}^m a_i \alpha_w w_i ]_1$
 >   - $D = [h]_1$
 >   - $E = [\sum_{i=\ell+1}^m a_i \beta (u_i + v_i + u_i)]_1$
-> - **Verify**: $V(\sigma,(a_i)_{i\in [0,\ell]},\pi)$ first adjust proof strings as follows:
+> - **Verify**: $V(\sigma,(a_i)_{i\in [0,\ell]},\pi)$ first adjusts proof strings as follows:
 >   - $A^* = [\sum_{i=0}^\ell a_i u_i ]_1 \cdot A$
 >   - $B^* = [\sum_{i=0}^\ell a_i v_i ]_2 \cdot B$
 >   - $C^* = [\sum_{i=0}^\ell a_i w_i ]_1 \cdot C$
