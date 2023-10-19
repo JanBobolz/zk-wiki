@@ -73,33 +73,6 @@ In what follows, we assume the type-I pairing for simplicity.
 >   - *Linear span check*: $e(A,[\alpha_u]) = e(A',[1]_2)$, $e([\alpha_v]_1,B) = e([1]_1,B')$, $e(C,[\alpha_w]) = e(C',[1]_2)$
 >   - *Wire consistency check*: $e(ABC, [\beta]_2) = e(E, [1]_2) $ 
 
-# Groth16 
-Groth16 can be viewed as an optimized variant of [[Pinocchio]] and is designed for [[Pinocchio#QAP]] relation. On a high-level, Groth16 manages to reduce the number of proof elements to 3 by stashing the following additional elements to $A,B,C$: 
-  1. $D$ i.e. a commitment to the $h$ polynomial separately.  
-  2. $A',B',C'$ commitments to $A^{\alpha_u}, B^{\alpha_v}, C^{\alpha_w}$.
-  3. $E$ i.e. a commitment to $(ABC)^\beta$
-
-# Dropping $D$ 
-Dropping $D$, the prover now has to push $ht$ to the $C$ element i.e. $$C = [\sum_{i=0}^m a_i w_i + ht]_1$$
-
-> [!protocol] 
-> - **Setup** $G(u_i,v_i,w_i,t)$: Output a CRS $\sigma$ containing
->   - $[x^i]_1$ for $i=1,\ldots,d-1$
->   - $[x^i]_2$ for $i=1,\ldots,d-1$
->   - $[(x^i t)\delta^{-1}]_2$ for $i=0,\ldots,d-2$
->   - $[\alpha]_1, [\beta]_2, [\gamma]_1, [\delta]_1$
->   - $[ (\beta u_i + \alpha v_i+w_i)\delta^{-1}]$ for $i=0,\ldots,m$
-> - **Prove**: $P(\sigma,(a_i)_{i\in [0,m]})$ outputs $\pi = (A,B,C)$ where
->   - $A = [\sum_{i=0}^m a_i u_i ]_1$, $A' = [\sum_{i=0}^m a_i \alpha_u u_i ]_1$
->   - $B = [\sum_{i=0}^m a_i v_i ]_2$, $B' = [\sum_{i=0}^m a_i \alpha_v v_i ]_2$
->   - $C = [\sum_{i=0}^m a_i w_i ]_1$, $C' = [\sum_{i=0}^m a_i \alpha_w w_i ]_1$
->   - $D = [h]_1$
->   - $E = [\sum_{i=0}^m a_i \beta (u_i + v_i + u_i)]_1$
-> - **Verify**: $V(\sigma,\pi)$ performs the following checks.
->   - *Divisibility check*: $e(A,B) = e(C,[1]_2) \cdot e(D, [t]_2)$ 
->   - *Linear span check*: $e(A,[\alpha_u]) = e(A',[1]_2)$, $e([\alpha_v]_1,B) = e([1]_1,B')$, $e(C,[\alpha_w]) = e(C',[1]_2)$
->   - *Wire consistency check*: $e(ABC, [\beta]_2) = e(E, [1]_2) $ 
-
 # Pinocchio with public inputs
 Now it is easy to account for public inputs $a_1,\ldots,a_\ell$. All we need to do is to ask a prover to compute the above using private inputs and a verifer to adjust the proof strings using the knowledge of a public statement. 
 
