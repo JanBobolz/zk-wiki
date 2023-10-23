@@ -28,7 +28,8 @@ The main goal is to understand what FRI-based polynomial commitment schemes are,
 	- Watch 26:18 until 1:37:00
 		- The Fiat-Shamir part and the overview part is not relevant to the discussion of this session, you can skip it if you're short on time.
 - https://eprint.iacr.org/2019/1020 or https://drops.dagstuhl.de/opus/volltexte/2018/9018/pdf/LIPIcs-ICALP-2018-14.pdf as additional material, should the lecture video not provide all context.
-- https://twitter.com/elliptichector/status/1639698732064165893 overview of the FRI low-degree check
+- https://twitter.com/elliptichector/status/1639698732064165893 concrete protocol overview of the FRI low-degree check
+- https://www.youtube.com/watch?v=wqRuoyH3Mqk was pretty helpful, too
 
 ## 📝 Notes
 ### Session (Oct 24)
