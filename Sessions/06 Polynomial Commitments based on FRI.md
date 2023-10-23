@@ -16,12 +16,18 @@ This session covers FRI-based polynomial commitments. We will particularly focus
 The main goal is to understand what FRI-based polynomial commitment schemes are, what they offer, and how they work.
 
 ## ❓ Quiz Questions
-tbd
+- How does the code rate $\rho$ affect (effect, even) the tradeoff between prover work and verifier work?
+- Why do we use the [[Reed-Solomon]] code at all? Why not just set $\rho = 1$? 
+- What's the requirement on the field $\mathbb{F}$? Why do we like Goldilocks fields like $\mathbb{F}_p$ with $p = t^2-t+1$?
+- Because we only check *proximity* of the committed code to some low-degree polynomial, the prover may be able to equivocate the committed polynomial, choosing to evaluate $f(u)$ for any polynomial $f$ close enough to the committed code word (there may be multiple if $\rho$ is small). Why, intuitively, is that not an issue in, say, [[PLONK]]?
+- What's the main idea behind the folding? 
+
 
 ## 📚 Material
 - [Lecture](https://youtu.be/A3edAQDPnDY) ([Slides](https://zk-learning.org/assets/lecture8.pdf))
-	- The Fiat-Shamir part is not relevant to this session.
-- https://eprint.iacr.org/2019/1020 as additional material, should the lecture video not provide all context.
+	- Watch 26:18 until 1:37:00
+		- The Fiat-Shamir part and the overview part is not relevant to the discussion of this session, you can skip it if you're short on time.
+- https://eprint.iacr.org/2019/1020 or https://drops.dagstuhl.de/opus/volltexte/2018/9018/pdf/LIPIcs-ICALP-2018-14.pdf as additional material, should the lecture video not provide all context.
 
 ## 📝 Notes
 ### Session (Oct 24)
