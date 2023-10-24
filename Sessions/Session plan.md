@@ -42,6 +42,19 @@ October 24.
 
 [[06 Polynomial Commitments based on FRI]]
 
+## 7: Linear PCPs
+October 31 & November 7 (Nov 7 is preliminary. Time slot change imminent).
+
+[[07 Linear PCP SNARKs]]
+
+## 8: Recursive SNARKs
+Calendar weeks 46 and 47
+
+[[08 Recursive SNARKs]]
+
+## 9: tbd
+Topic and dates unclear right now.
+
 # Planned but not sessioned
 - Rest of https://zk-learning.org
 - Some understanding of folding schemes (relaxed R1CS and such)
