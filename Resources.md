@@ -8,6 +8,9 @@ created: 2023-04-21
 # Meta resources
 - https://ingonyama-zk.github.io/ingopedia lists an absurd amount of good resources
 - [Awesome ZK](https://github.com/ventali/awesome-zk)
+- [ZKProof](https://docs.zkproof.org)
+	- [List of schemes](https://docs.zkproof.org/schemes)
+	- [More resources](https://docs.zkproof.org/edu)
 
 # Courses
 - https://zk-learning.org/

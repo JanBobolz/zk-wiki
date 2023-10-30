@@ -66,7 +66,7 @@ Analogously to [[Pinocchio#Pinocchio with public inputs]], we can adjust the abo
 >   - $B = [\sum_{i=0}^m a_i v_i + \beta ]_2$
 >   - $C = [\left(\sum_{\color{red}i=\ell+1}^m a_i w_i + \alpha (\sum_{\color{red} i=\ell+1}^m a_i v_i) + \beta (\sum_{\color{red} i=\ell+1}^m a_i u_i \right)+ht)\delta^{-1}]_1$
 > - **Verify**: $V(\sigma,(a_i)_{i\in[0,\ell]},\pi)$ computes the public component for $C$ as
->   $$\color{red} C_{\text{pub}} = [\left(\sum_{i=0}^\ell a_i w_i + \alpha (\sum_{i=0}^\ell a_i v_i) + \beta (\sum_{i=0}^\ell a_i u_i \right)+ht)\gamma^{-1}]_1$$ 
+>   $$\color{red} C_{\text{pub}} = \left[\left(\sum_{i=0}^\ell a_i w_i + \alpha (\sum_{i=0}^\ell a_i v_i) + \beta (\sum_{i=0}^\ell a_i u_i )\right)+ht)\gamma^{-1}\right]_1$$ 
 > and checks
 >   $$e(A,B) = {\color{red}e(C_{\text{pub}},[\gamma]_2)\cdot} e(C,[\delta]_2) \cdot  e([\alpha]_1, [\beta]_2)$$
 
@@ -87,7 +87,7 @@ Towards ZK, we randomize the two proof elements $A$ and $B$, and perturb $C$ to 
 >   - $C = [\left(\sum_{i=\ell+1}^m a_i w_i + \alpha (\sum_{i=\ell+1}^m a_i v_i) + \beta (\sum_{i=\ell+1}^m a_i u_i \right)+ht)\delta^{-1} {\color{red}+ r s\delta}]_1 {\color{red} \cdot A^s \cdot 
  B^r}$
 > - **Verify**: $V(\sigma,(a_i)_{i\in[0,\ell]},\pi)$ computes the public component for $C$ as
->   $$C_{\text{pub}} = [\left(\sum_{i=0}^\ell a_i w_i + \alpha (\sum_{i=0}^\ell a_i v_i) + \beta (\sum_{i=0}^\ell a_i u_i \right)+ht)\gamma^{-1}]_1$$ 
+>   $$C_{\text{pub}} = [(\left(\sum_{i=0}^\ell a_i w_i + \alpha (\sum_{i=0}^\ell a_i v_i) + \beta (\sum_{i=0}^\ell a_i u_i) \right)+ht)\gamma^{-1}]_1$$ 
 > and checks
 >   $$e(A,B) = e(C_{\text{pub}},[\gamma]_2)\cdot e(C,[\delta]_2) \cdot  e([\alpha]_1, [\beta]_2)$$
 

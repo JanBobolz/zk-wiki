@@ -26,7 +26,7 @@ where $a_0=1$.
 # Relation
 Given an index $\idx = ((u_i,v_i,w_i)_{i\in[0,m]},t)$, we obtain the following indexed relation:
 
-$$R_{\text{QAP}}= \left\{(\idx,(a_i)_{i\in[1,\ell]},(a_i)_{i\in[\ell+1,m]}) \,:\, \exists h\in\FF_{\leq d-2}[X],p_{a_1,\ldots,a_m}(X) \equiv h(X) t(X)  \right\}$$
+$$R_{\text{QAP}}= \left\{(\idx,(a_i)_{i\in[1,\ell]},(a_i)_{i\in[\ell+1,m]}) \,:\, \exists h\in\FF_{\leq d-2}[X] \text{ s.t. }p_{a_1,\ldots,a_m}(X) \equiv h(X) t(X)  \right\}$$
 
 where $\ell$ is the size of public statement. 
 
@@ -43,7 +43,7 @@ To prove knowledge of a valid witness vector $a_1,\ldots,a_m$, we can consider t
 >   - $A = [\sum_{i=0}^m a_i u_i ]_1$
 >   - $B = [\sum_{i=0}^m a_i v_i ]_2$
 >   - $C = [\sum_{i=0}^m a_i w_i ]_1$
->   - $D = [h]_1$
+>   - $D = [h]_1$ (as above, i.e. $p(X) \equiv h(X)\cdot t(X)$)
 > - **Verify**: $V(\sigma,\pi)$ checks
 >   - $e(A,B) = e(C,[1]_2) \cdot e(D, [t]_2)$
 
@@ -54,7 +54,7 @@ To prove knowledge of a valid witness vector $a_1,\ldots,a_m$, we can consider t
 > The second attack can be thwarted by adding another pairing check to make sure that the same coefficients are used for $a,b,c$. This can be realized by having a prover compute $E=(ABC)^\beta$ while including $[\beta(u_i+v_i+w_i)]_1$ in the CRS. 
 
 # Simple Pinocchio
-In what follows, we assume the type-I pairing for simplicity. 
+In what follows, we assume the type-I pairing for simplicity (used in the "wire consistency check" below). 
 > [!protocol] 
 > - **Setup** $G(u_i,v_i,w_i,t)$: Output a CRS $\sigma$ containing
 >   - $[x^i]_1$ for $i=1,\ldots,d-1$
