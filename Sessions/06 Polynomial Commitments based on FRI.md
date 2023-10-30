@@ -30,6 +30,7 @@ The main goal is to understand what FRI-based polynomial commitment schemes are,
 - https://eprint.iacr.org/2019/1020 or https://drops.dagstuhl.de/opus/volltexte/2018/9018/pdf/LIPIcs-ICALP-2018-14.pdf as additional material, should the lecture video not provide all context.
 - https://twitter.com/elliptichector/status/1639698732064165893 concrete protocol overview of the FRI low-degree check
 - https://www.youtube.com/watch?v=wqRuoyH3Mqk was pretty helpful, too
+- Overview of main points, used in the session. ![[zk-reading-group-FRI.key.pdf]]
 
 ## 📝 Notes
 ### Session (Oct 24)
