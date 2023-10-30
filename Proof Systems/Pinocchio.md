@@ -13,13 +13,13 @@ Consider an arithmetic circuit consisting of $d$ multiplication gates and $m$ wi
 For the $j$ th multiplication gate, we assign a constant $\omega_j\in\FF$. Let $t(X)=\prod_{j=1}^d(X-\omega_j)$ be a vanishing polynomial over $\omega_1,\ldots,\omega_d$.
 
 Define selector polynomials $u_i,v_i,w_i\in\FF[X]$ for $i=0,\ldots,m$ of degree $d-1$ such that
-  - $u_i(r_j)=1$ if the $i$-th wire is left input of $j$-th gate, and $0$ otherwise.
-  - $v_i(r_j)=1$ if the $i$-th wire is right input of $j$-th gate, and $0$ otherwise.
-  - $w_i(r_j)=1$ if the $i$-th wire is output of $j$-th gate, and $0$ otherwise.
+  - $u_i(\omega_j)=1$ if the $i$-th wire is left input of $j$-th gate, and $0$ otherwise.
+  - $v_i(\omega_j)=1$ if the $i$-th wire is right input of $j$-th gate, and $0$ otherwise.
+  - $w_i(\omega_j)=1$ if the $i$-th wire is output of $j$-th gate, and $0$ otherwise.
   - $u_0,v_0,w_0$ specify addition/multiplication by constants. 
 
 A quadratic arithmetic program (QAP) over $\FF$ consists of $((u_i,v_i,w_i)_{i\in[0,m]},t)$.
-The wire values $a_1,\ldots,a_m$ satisfies QAP iff there exists some $h\in\FF_{\leq d-2}[X]$ such that
+The wire values $a_1,\ldots,a_m$ satisfy QAP iff there exists some $h\in\FF_{\leq d-2}[X]$ such that
 $$p_{a_1,\ldots,a_m}(X):=\left(\sum_{i=0}^m a_i u_i(X)\right)\cdot\left(\sum_{i=0}^m a_i v_i(X)\right) - \sum_{i=0}^m a_i w_i(X) \equiv h(X) t(X)$$
 where $a_0=1$. 
 
@@ -62,7 +62,7 @@ In what follows, we assume the type-I pairing for simplicity.
 >   - $[t]_2$
 >   - ${\color{red} [\alpha_u]_2, [\alpha_v]_1, [\alpha_w]_2, [\beta]_2}$
 >   - ${\color{red} [\alpha_u u_i]_1,[\alpha_v v_i]_2,[\alpha_w w_i]_1}$ for $i=0,\ldots,m$
->   - ${\color{red} [\beta (u_i+v_i+w_i)]}$ for $i=0,\ldots,m$
+>   - ${\color{red} [\beta (u_i+v_i+w_i)]_1}$ for $i=0,\ldots,m$
 > - **Prove**: $P(\sigma,(a_i)_{i\in [0,m]})$ outputs $\pi = (A,A',B,B',C,C',D,E)$ where
 >   - $A = [\sum_{i=0}^m a_i u_i ]_1$, ${\color{red} A' = [\sum_{i=0}^m a_i \alpha_u u_i ]_1}$
 >   - $B = [\sum_{i=0}^m a_i v_i ]_2$, ${\color{red} B' = [\sum_{i=0}^m a_i \alpha_v v_i ]_2}$
@@ -71,7 +71,7 @@ In what follows, we assume the type-I pairing for simplicity.
 >   - ${\color{red} E = [\sum_{i=0}^m a_i \beta (u_i + v_i + u_i)]_1}$
 > - **Verify**: $V(\sigma,\pi)$ performs the following checks.
 >   - *Divisibility check*: $e(A,B) = e(C,[1]_2) \cdot e(D, [t]_2)$ 
->   - *Linear span check*: $\color{red} e(A,[\alpha_u]) = e(A',[1]_2), e([\alpha_v]_1,B) = e([1]_1,B'), e(C,[\alpha_w]) = e(C',[1]_2)$
+>   - *Linear span check*: $\color{red} e(A,[\alpha_u]_2) = e(A',[1]_2), e([\alpha_v]_1,B) = e([1]_1,B'), e(C,[\alpha_w]_2) = e(C',[1]_2)$
 >   - *Wire consistency check*: $\color{red} e(ABC, [\beta]_2) = e(E, [1]_2)$ 
 
 # Pinocchio with public inputs
@@ -84,7 +84,7 @@ Now it is easy to account for public inputs $a_1,\ldots,a_\ell$. All we need to 
 >   - $[t]_2$
 >   - $[\alpha_u]_2, [\alpha_v]_1, [\alpha_w]_2, [\beta]_2$
 >   - $[\alpha_u u_i]_1,[\alpha_v v_i]_2,[\alpha_w w_i]_1$ for $i=0,\ldots,m$
->   - $[\beta (u_i+v_i+w_i)]$ for $i=0,\ldots,m$
+>   - $[\beta (u_i+v_i+w_i)]_1$ for $i=0,\ldots,m$
 > - **Prove**: $P(\sigma,(a_i)_{i\in [0,m]})$ outputs $\pi = (A,A',B,B',C,C',D,E)$ where
 >   - $A = [\sum_{\color{red} i=\ell+1}^m a_i u_i ]_1$, $A' = [\sum_{\color{red}i=\ell+1}^m a_i \alpha_u u_i ]_1$
 >   - $B = [\sum_{\color{red} i=\ell+1}^m a_i v_i ]_2$, $B' = [\sum_{\color{red} i=\ell+1}^m a_i \alpha_v v_i ]_2$
@@ -97,5 +97,5 @@ Now it is easy to account for public inputs $a_1,\ldots,a_\ell$. All we need to 
 >   - $\color{red} C^* = [\sum_{i=0}^\ell a_i w_i ]_1 \cdot C$
 > and then performs the following checks.
 >   - *Divisibility check*: $e(A^*,B^*) = e(C^*,[1]_2) \cdot e(D, [t]_2)$ 
->   - *Linear span check*: $e(A,[\alpha_u]) = e(A',[1]_2)$, $e([\alpha_v]_1,B) = e([1]_1,B')$, $e(C,[\alpha_w]) = e(C',[1]_2)$
+>   - *Linear span check*: $e(A,[\alpha_u]_2) = e(A',[1]_2)$, $e([\alpha_v]_1,B) = e([1]_1,B')$, $e(C,[\alpha_w]_2) = e(C',[1]_2)$
 >   - *Wire consistency check*: $e(ABC, [\beta]_2) = e(E, [1]_2)$ 
