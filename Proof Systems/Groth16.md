@@ -52,7 +52,7 @@ $$ C = [(\sum_{i=0}^m a_i w_i +\sum_{i=0}^m a_i \beta u_i +\sum_{i=0}^m a_i \alp
 >   $$e(A,B) = e(C,[\delta]_2) \cdot e([\alpha]_1, [\beta]_2)$$ 
 
 # Groth16 with public inputs
-Analogously to [[Pinocchi#Pinocchio with public inputs]], we can adjust the above to full-fledged Groth16 for QAP relation. 
+Analogously to [[Pinocchio#Pinocchio with public inputs]], we can adjust the above to full-fledged Groth16 for QAP relation. 
 > [!protocol] 
 > - **Setup** $G(u_i,v_i,w_i,t)$: Output a CRS $\sigma$ containing
 >   - $[x^i]_1$ for $i=1,\ldots,d-1$
