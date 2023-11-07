@@ -14,6 +14,7 @@ created: 2023-10-24
 ## 🎯 Goals
 - Basic idea of proving knowledge/existence of a proof. How does composition work? What are the issues?
 - Use cases for recursive SNARKs.
+- Performance improvements via cycles of elliptic curves.
 - Understand ideas behind folding a la [[Relaxed R1CS]].
 
 ## 📚 Material
