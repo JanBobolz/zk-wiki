@@ -21,3 +21,8 @@ created: 2023-10-24
 
 ## 📝 Notes
 ### Subsession 1 (Oct 31)
+
+### Subsession 2 (Nov 7)
+Open questions: 
+1. Why is it called "rank 1" constraint system?
+2. What's a good example where [[Rank 1 Constraint System|R1CS]] is a much more efficient representation of the desired relation relation than an [[Algebraic Circuit]]?

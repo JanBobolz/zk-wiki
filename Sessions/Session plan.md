@@ -48,14 +48,17 @@ October 31 & November 7 (Nov 7 is preliminary. Time slot change imminent).
 [[07 Linear PCP SNARKs]]
 
 ## 8: Recursive SNARKs
-Calendar weeks 46 and 47
+November 16 & 23
 
 [[08 Recursive SNARKs]]
 
 ## 9: tbd
-Topic and dates unclear right now.
+November 30 & December 7
+
+Topics to be decided
 
 # Planned but not sessioned
-- Rest of https://zk-learning.org
 - Some understanding of folding schemes (relaxed R1CS and such)
+- Lookup arguments
+- Rest of https://zk-learning.org
 - [[Lattice ZK]] from https://lattices-meet-hashes23.epfl.ch/program.html
