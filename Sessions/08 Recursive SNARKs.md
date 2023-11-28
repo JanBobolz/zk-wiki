@@ -5,7 +5,7 @@ tags:
 created: 2023-10-24
 ---
 
-**🪑 Session chair:** Jan?
+**🪑 Session chair:** Jan? / Liz
 <small>(Duties: Read material above-average carefully 🤓; prepare fallback discussions/questions (worst-case: just prepare some quiz questions about the material) 🙋. Prepare a few slides to guide the session through subtopics (this is <i>not</i> supposed to be a <i>detailed</i> summary of the material)</small>
 
 **✍️ Notetaker:** ??
@@ -22,6 +22,7 @@ created: 2023-10-24
 
 ## 📝 Notes
 ### November 16
-tbd
+
 ### November 23
-tbd
+
+### November 30
