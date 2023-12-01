@@ -48,14 +48,9 @@ October 31 & November 7 (Nov 7 is preliminary. Time slot change imminent).
 [[07 Linear PCP SNARKs]]
 
 ## 8: Recursive SNARKs
-November 16 & 23 & 30
+November 16 & 23 & 30. December 7
 
 [[08 Recursive SNARKs]]
-
-## 9: tbd
-December 7
-
-Topics to be decided
 
 # Planned but not sessioned
 - Some understanding of folding schemes (relaxed R1CS and such)
