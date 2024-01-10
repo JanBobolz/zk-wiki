@@ -24,10 +24,8 @@ https://taiko.mirror.xyz/tk8LoE-rC2w0MJ4wCWwaJwbq8-Ih8DXnLUf7aJX1FbU seems like 
 - [Lattices Meet Hashes Workshop](https://lattices-meet-hashes23.epfl.ch/program.html)
 - [BDLOP18](https://eprint.iacr.org/2022/284.pdf) More efficient commitments from structured lattice assumption
 - [LNP22](https://eprint.iacr.org/2022/284.pdf) Lattice-Based Zero-Knowledge Proofs and Applications: Shorter, Simpler, and More General
-- [NS22](https://eprint.iacr.org/2022/1048.pdf) Practical Sublinear Proofs for R1CS from
-Lattices
-- [BS22](https://eprint.iacr.org/2022/1341.pdf) LaBRADOR: Compact Proofs for R1CS from
-Module-SIS
+- [NS22](https://eprint.iacr.org/2022/1048.pdf) Practical Sublinear Proofs for R1CS from Lattices
+- [BS22](https://eprint.iacr.org/2022/1341.pdf) LaBRADOR: Compact Proofs for R1CS from Module-SIS
 - [AFLN23](https://eprint.iacr.org/2023/1469.pdf) SLAP: Succinct Lattice-Based Polynomial Commitments from Standard Assumptions
 
 # ZK and Machine Learning
@@ -36,10 +34,12 @@ Module-SIS
 - [GGJM23](https://eprint.iacr.org/2023/1345.pdf) Experimenting with Zero-Knowledge Proofs of Training
 
 # Anonymous Credentials
-- [RPXCS22](https://eprint.iacr.org/2022/1286.pdf) ZEBRA: SNARK-based Anonymous Credentials for Practical,
-Private and Accountable On-chain Access Control
+- [RPXCS22](https://eprint.iacr.org/2022/1286.pdf) ZEBRA: SNARK-based Anonymous Credentials for Practical, Private and Accountable On-chain Access Control
 - [RWG+23](https://eprint.iacr.org/2022/878.pdf) zk-creds: Flexible Anonymous Credentials from zkSNARKs and Existing Identity Infrastructure
 - Lattice-based AC:
   - [BLNS23](https://eprint.iacr.org/2023/560.pdf) A Framework for Practical Anonymous Credentials from Lattices
   - [JRS23](https://eprint.iacr.org/2022/509.pdf) Lattice Signature with Efficient Protocols, Application to Anonymous Credentials
   - [LCLLW23](https://eprint.iacr.org/2023/766.pdf) Lattice-based Commit-Transferrable Signatures and Applications to Anonymous Credentials
+
+# Odds and ends
+- [Kiy23](https://doi.org/10.1007/978-3-031-48621-0_12) (*Holographic* SNARG, batch-P, LWE)
