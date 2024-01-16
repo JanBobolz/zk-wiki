@@ -58,7 +58,7 @@ December 7
 [[09 Theoretical Foundations and Recent Advancements]]
 
 ## 10: Nova (R1CS folding)
-December 16, 23?!
+December 16 & 23
 
 [[10 Nova]]
 
