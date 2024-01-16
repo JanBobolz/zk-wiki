@@ -57,6 +57,12 @@ December 7
 
 [[09 Theoretical Foundations and Recent Advancements]]
 
+## 10: Nova (R1CS folding)
+December 16, 23?!
+
+[[10 Nova]]
+
+
 # Planned but not sessioned
 - Some understanding of folding schemes (relaxed R1CS and such)
 - Lookup arguments (e.g., [this](https://www.youtube.com/watch?v=uGjbczKGm4s&list=PL8Vt-7cSFnw1gx51WHRgAtioVqAjzMS1w&index=12))
