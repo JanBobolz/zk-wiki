@@ -33,4 +33,11 @@ Be able to answer the following questions:
 
 ## 📝 Notes
 ### Jan 16 session
-tbd
+- Formal definition of a [[Folding Scheme]]
+- [[Relaxed R1CS]]
+- Performance benefit over recursive [[SNARG|SNARK]]s: much more efficient combination, only linear combination over the field. No "SNARK proof of correct hash" (at least not a complicated one)
+
+### Jan 23 session
+Focus: 
+- how to build IVC from folding
+- Why is IVC interesting?
