@@ -62,6 +62,10 @@ December 16 & 23
 
 [[10 Nova]]
 
+## 11: Sangria (PLONKish folding)
+January 30 & February 6
+
+[[11 Sangria]]
 
 # Planned but not sessioned
 - Some understanding of folding schemes (relaxed R1CS and such)
