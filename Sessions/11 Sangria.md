@@ -20,6 +20,7 @@ created: 2024-01-24
 	- Section 3 
 - [Sangria Technical Note ("paper")](https://github.com/geometryresearch/technical_notes/blob/main/sangria_folding_plonk.pdf) and [blog post](https://geometry.xyz/notebook/sangria-a-folding-scheme-for-plonk)
 - [Any of the surprising number of YouTube presentations](https://www.youtube.com/results?search_query=Sangria+plonk)
+	- Markulf's recommendation: [ZK9 talk](https://youtu.be/D7rQbHpxl7Q)
 
 ## 📝 Notes
 ### January 30
