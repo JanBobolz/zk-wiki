@@ -67,8 +67,13 @@ January 30 & February 6
 
 [[11 Sangria]]
 
+## 12: SuperNova (non-uniform IVC)
+March 19
+
+[[12 SuperNova]]
+
 # Planned but not sessioned
-- Some understanding of folding schemes (relaxed R1CS and such)
+See [[Open Topics]]
 - Lookup arguments (e.g., [this](https://www.youtube.com/watch?v=uGjbczKGm4s&list=PL8Vt-7cSFnw1gx51WHRgAtioVqAjzMS1w&index=12))
 - Rest of https://zk-learning.org
 - [[Lattice ZK]] from https://lattices-meet-hashes23.epfl.ch/program.html
