@@ -4,5 +4,12 @@ aliases:
 tags: 
 created: 2024-01-10
 ---
+# Notes on IVC from folding
+## Naive strategy
+![[folding-naive.png]]
 
-> [!info] No content yet 🚧. Feel free to [[Homepage|contribute]] and make this page a reality 🙂.
+## Actual strategy ([[Nova]])
+![[Nova-IVC.png]]
+
+# Resources
+- [Nova paper](https://eprint.iacr.org/2021/370)
