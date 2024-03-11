@@ -20,6 +20,7 @@ Questions we want to be able to answer:
 - We're still following, roughly, [An incomplete guide to Folding](https://taiko.mirror.xyz/tk8LoE-rC2w0MJ4wCWwaJwbq8-Ih8DXnLUf7aJX1FbU), SuperNova is Section 4
 - [SuperNova paper](https://eprint.iacr.org/2022/1758)
 - [zkStudyClub Presentation](https://youtu.be/ilrvqajkrYY) ([Slides](https://www.slideshare.net/AlexPruden/zk-study-club-supernova-srinath-setty-ms-research))
+- Notes in the [[Incrementally Verifiable Computation|IVC]] article about original [[Nova]]-style folding.
 - (+ ... whatever resource you find most appropriate)
 
 ## 📝 Notes
