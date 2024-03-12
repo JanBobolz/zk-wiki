@@ -6,6 +6,7 @@ created: 2023-07-11
 
 # Resources
 - https://risencrypto.github.io/PLONKWHY/ discussion of some details
+- https://www.cryptologie.net/article/610/plonks-permutation/
 
 # Goal
 The prover $P$ covinces the verifier $V$ that they know a correct witness $w$ such that $C(x,w)=0$ for public input $x$. 

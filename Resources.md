@@ -19,6 +19,9 @@ created: 2023-04-21
 	- Good general overview
 - [Justin Thaler's notes](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 
+# Notes (similar to *this* wiki)
+- https://o1-labs.github.io/proof-systems/
+
 # Advanced/specialized resources
 - Foundations and Frontiers of Probabilistic Proofs. https://www.msri.org/summer_schools/931
 - Efficient Probabilistic Proofs. https://bertinoro-proofs.github.io/program.html
