@@ -34,5 +34,12 @@ For ZK proofs, we are broadly interested in two main properties:
 - [[Zero Knowledge]]: the verifier cannot cheat (cannot learn anything about the witness).
 For these properties, there is a huge diversity of concrete definitions, suitable for different scenarios/constructions.
 
+## Real/Ideal definition
+### Non-interactive proofs
+![[F-wNIZK.png]]
+- **Weak NIZK**: malleable proofs, extraction is only required if statement $x$ has not been simulated before.
+- **Strong NIZK**: figure without line 9.
+
+Disclaimer: this definition does not guarantee *consistency*, i.e. an invalid proof may theoretically become valid later. 
 ## Honorable mentions
 - [[Witness Indistinguishability]]: a weaker version of security against cheating verifiers, which states that the verifier cannot distinguish a prover using valid witness $w_1$ from a prover using some other valid witness $w_2$.
