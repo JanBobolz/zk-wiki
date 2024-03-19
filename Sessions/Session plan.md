@@ -72,6 +72,12 @@ March 19
 
 [[12 SuperNova]]
 
+## 12: HyperNova and CCS
+April 2
+
+[[13 HyperNova]]
+
+
 # Planned but not sessioned
 See [[Open Topics]]
 - Lookup arguments (e.g., [this](https://www.youtube.com/watch?v=uGjbczKGm4s&list=PL8Vt-7cSFnw1gx51WHRgAtioVqAjzMS1w&index=12))
