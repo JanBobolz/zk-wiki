@@ -25,3 +25,4 @@ Questions we want to be able to answer:
 
 ## 📝 Notes
 ### March 19 session
+https://scribbletogether.com/whiteboard/BD2BD5DD-A51B-4614-B603-E353E1E708C4
