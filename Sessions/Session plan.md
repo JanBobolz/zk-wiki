@@ -73,7 +73,7 @@ March 19
 [[12 SuperNova]]
 
 ## 12: HyperNova and CCS
-April 2
+April 2 & 9
 
 [[13 HyperNova]]
 

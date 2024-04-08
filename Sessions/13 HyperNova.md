@@ -9,8 +9,8 @@ Goal is to understand [[HyperNova]] and the [[Customizable Constraint System|CCS
 
 ## 📚 Material
 - We're still following, roughly, [An incomplete guide to Folding](https://taiko.mirror.xyz/tk8LoE-rC2w0MJ4wCWwaJwbq8-Ih8DXnLUf7aJX1FbU), HyperNova is Section 5
-- https://eprint.iacr.org/2023/573 original paper
-- https://eprint.iacr.org/2023/552 paper for [[Relaxed R1CS|Committed Relaxed R1CS]]
+- https://eprint.iacr.org/2023/573 original HyperNova paper
+- https://eprint.iacr.org/2023/552 paper about [[Customizable Constraint System]]s
 
 ## 📝 Notes
-### April 2 session
+### April 9 session
