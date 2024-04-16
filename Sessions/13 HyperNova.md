@@ -14,4 +14,4 @@ Goal is to understand [[HyperNova]] and the [[Customizable Constraint System|CCS
 - https://www.youtube.com/live/pDFmANwwIoY
 
 ## 📝 Notes
-### April 9 session
+### April 16 session
