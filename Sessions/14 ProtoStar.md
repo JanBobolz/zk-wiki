@@ -14,5 +14,5 @@ Goal is to understand [[ProtoStar]].
 	- [Alternative](https://youtu.be/tt00TLFJPpc) (same talk, essentially, probably different discussion)
 
 ## 📝 Notes
-### April 23 session
+### April 23, 30 sessions
 First, going to watch [a presentation](https://youtu.be/wtxVYiZh7zc) about it together.

@@ -78,7 +78,7 @@ April 2 & 16
 [[13 HyperNova]]
 
 ## ProtoStar
-April 23 & 30
+April 23 & 30 & …
 
 [[14 ProtoStar]]
 
