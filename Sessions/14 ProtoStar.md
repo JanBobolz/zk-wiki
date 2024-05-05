@@ -16,3 +16,16 @@ Goal is to understand [[ProtoStar]].
 ## 📝 Notes
 ### April 23, 30 sessions
 First, going to watch [a presentation](https://youtu.be/wtxVYiZh7zc) about it together.
+
+### May 7
+Go through the paper together, answer questions, improve our understanding.
+
+*Some example questions*
+- What special case protocol makes ProtoStar equivalent to Nova?
+- Let’s go through the compilation steps for a simple example protocol
+- How does ProtoStar achieve *nonuniform* IVC?
+- What do we optimize for when designing special sound protocols for the ProtoStar compiler?
+	- Number of rounds? Messages? Length of messages? 
+	- Sparsity?
+	- Degree/number of verification equations?
+- How/why does the lookup protocol work?
