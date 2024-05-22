@@ -25,3 +25,4 @@ created: 2023-04-21
 # Advanced/specialized resources
 - Foundations and Frontiers of Probabilistic Proofs. https://www.msri.org/summer_schools/931
 - Efficient Probabilistic Proofs. https://bertinoro-proofs.github.io/program.html
+- https://hash-based-snargs-book.github.io
