@@ -83,12 +83,19 @@ April 23 & 30 & …
 [[14 ProtoStar]]
 
 ## Lasso & Jolt
+May 14 (paused topic)
 
 [[15 Lasso and Jolt]]
 
 ## unknown
+June 12
 
 [[16 Mystery Meeting]]
+
+## Sumcheck protocols
+June 19
+
+[[17 Sumcheck]]
 
 # Planned but not sessioned
 See [[Open Topics]]
