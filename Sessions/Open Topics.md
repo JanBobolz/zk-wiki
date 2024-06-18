@@ -6,19 +6,17 @@ created: 2024-01-09
 This page collects topic ideas and resources.
 
 # Lookup arguments
-Plookup et al.
+- Plookup et al.
+- https://www.youtube.com/live/xnzjC_9vUzs?si=2b3biKKOkx3l1eMI Groth on folding memory checking
 
 # Recursion and Folding
-https://taiko.mirror.xyz/tk8LoE-rC2w0MJ4wCWwaJwbq8-Ih8DXnLUf7aJX1FbU seems like a good summary of recent progress, with links to further resources.
+- https://youtu.be/mQ0hZeJMAgo?si=DOHfSgwUGECsu_tI accumulation without homomorphism
+- https://youtu.be/DVHfukc35xk?si=dTdf78EigkotiVHB Lattice folding
+- Nova cycle of curves [Talk 1](https://www.youtube.com/watch?v=cdYrxKLMpxM), [Talk 2](https://www.youtube.com/watch?v=l-F5ykQQ4qw)
 
 # Evaluating [[Random Oracle]]s within circuits
 - https://eprint.iacr.org/2022/542 ([Slides](https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/170/slides.pdf))
 - https://dx.doi.org/10.1007/978-3-031-30617-4_13 ([Slides](https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/284/slides.pdf))
-
-# Sumcheck Protocols
-- [Lecture 3: SNARKs via Interactive Proofs](https://zk-learning.org/assets/lecture4.pdf)
-- [Thaler](https://people.cs.georgetown.edu/jthaler/GKRNote.pdf) A Note on the GKR Protocol
-- [BCS21](https://eprint.iacr.org/2021/333.pdf) [BCS23](https://eprint.iacr.org/2023/930.pdf)  Sumcheck vs split-and-fold
 
 # Lattice-based ZK Proofs
 - [Lattices Meet Hashes Workshop](https://lattices-meet-hashes23.epfl.ch/program.html)
