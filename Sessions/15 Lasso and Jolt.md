@@ -9,7 +9,8 @@ created: 2024-05-09
 
 ## 📚 Material
 - [Intro blog post](https://a16zcrypto.com/posts/article/building-on-lasso-and-jolt/)
-- Justin Thaler talk
+- [Eurocrypt talks](https://youtu.be/_WsCQc9Elcg)
+- Justin Thaler talks (*many* questions, not a great introduction if limited time)
 	- [Part 1](https://www.youtube.com/watch?v=aEiHLORcDq4)
 	- [Part 2](https://www.youtube.com/watch?v=dmVweFbJsxw)
 	- [Shorter version(?)](https://youtu.be/Q9t3ALjpRwk?si=qkVgmVfydczZXFXN)
