@@ -27,3 +27,6 @@ Advanced:
 ### June 19
 - Intro session: watching one of the intro talks on the topic together
 	- https://youtu.be/4018OYyoAf8 from 45:00
+
+### June 26
+- Finish https://youtu.be/4018OYyoAf8?t=4402 (starting with linked timestamp)
