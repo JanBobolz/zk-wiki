@@ -22,6 +22,8 @@ Advanced:
 - [Sublinear sumchecking paper](https://eprint.iacr.org/2024/816)
 - HyperNova
 - [A Note on the GKR Protocol](https://people.cs.georgetown.edu/jthaler/GKRNote.pdf) 
+- [A Time-Space Tradeoff for the Sumcheck Prover](https://eprint.iacr.org/2024/524)
+- Blendy ([talk](https://www.youtube.com/live/pS3REeCWMQ8?si=qPSqKqV4dI-pcjq0), [slides](https://drive.google.com/file/d/1SUguLkKis_xpiY3mgmKEsp0dg5BXM2Y7/view?pli=1))
 
 ## 📝 Notes
 ### June 19
