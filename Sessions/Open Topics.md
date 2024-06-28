@@ -14,9 +14,12 @@ This page collects topic ideas and resources.
 - https://youtu.be/DVHfukc35xk?si=dTdf78EigkotiVHB Lattice folding
 - Nova cycle of curves [Talk 1](https://www.youtube.com/watch?v=cdYrxKLMpxM), [Talk 2](https://www.youtube.com/watch?v=l-F5ykQQ4qw)
 
-# Evaluating [[Random Oracle]]s within circuits
+## Provable security of recursion
+- [On the Security of Nova Recursive Proof System](https://eprint.iacr.org/2024/232) [talk](https://www.youtube.com/live/Y-hnyH9NdWY)
+Evaluating [[Random Oracle]]s within circuits:
 - https://eprint.iacr.org/2022/542 ([Slides](https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/170/slides.pdf))
 - https://dx.doi.org/10.1007/978-3-031-30617-4_13 ([Slides](https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/284/slides.pdf))
+
 
 # Lattice-based ZK Proofs
 - [Lattices Meet Hashes Workshop](https://lattices-meet-hashes23.epfl.ch/program.html)
