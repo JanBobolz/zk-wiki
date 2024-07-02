@@ -10,15 +10,16 @@ This page collects topic ideas and resources.
 - https://www.youtube.com/live/xnzjC_9vUzs?si=2b3biKKOkx3l1eMI Groth on folding memory checking
 
 # Recursion and Folding
-- https://youtu.be/mQ0hZeJMAgo?si=DOHfSgwUGECsu_tI accumulation without homomorphism
-- https://youtu.be/DVHfukc35xk?si=dTdf78EigkotiVHB Lattice folding
+- [Accumulation without homomorphism](https://youtu.be/mQ0hZeJMAgo?si=DOHfSgwUGECsu_tI) 
+- [Lattice folding](https://youtu.be/DVHfukc35xk?si=dTdf78EigkotiVHB)  ([alternative talk](https://www.youtube.com/watch?v=-k8s7vVUx6s))
 - Nova cycle of curves [Talk 1](https://www.youtube.com/watch?v=cdYrxKLMpxM), [Talk 2](https://www.youtube.com/watch?v=l-F5ykQQ4qw)
 
 ## Provable security of recursion
 - [On the Security of Nova Recursive Proof System](https://eprint.iacr.org/2024/232) [talk](https://www.youtube.com/live/Y-hnyH9NdWY)
 Evaluating [[Random Oracle]]s within circuits:
-- https://eprint.iacr.org/2022/542 ([Slides](https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/170/slides.pdf))
-- https://dx.doi.org/10.1007/978-3-031-30617-4_13 ([Slides](https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/284/slides.pdf))
+- [Arithmetized Random Oracles](https://eprint.iacr.org/2023/587) ([Slides](https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/284/slides.pdf))
+- [(some) potential impossibility](https://eprint.iacr.org/2022/542) ([Slides](https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/170/slides.pdf))
+- [(another) potential impossibility](https://eprint.iacr.org/2024/728)
 
 
 # Lattice-based ZK Proofs
