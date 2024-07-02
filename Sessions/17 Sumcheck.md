@@ -24,6 +24,7 @@ Advanced:
 - [A Note on the GKR Protocol](https://people.cs.georgetown.edu/jthaler/GKRNote.pdf) 
 - [A Time-Space Tradeoff for the Sumcheck Prover](https://eprint.iacr.org/2024/524)
 - Blendy ([talk](https://www.youtube.com/live/pS3REeCWMQ8?si=qPSqKqV4dI-pcjq0), [slides](https://drive.google.com/file/d/1SUguLkKis_xpiY3mgmKEsp0dg5BXM2Y7/view?pli=1))
+- [The Sum-Check Protocol over Fields of Small Characteristic](https://eprint.iacr.org/2024/1046)
 
 ## 📝 Notes
 ### June 19
@@ -31,4 +32,9 @@ Advanced:
 	- https://youtu.be/4018OYyoAf8 from 45:00
 
 ### June 26
-- Finish https://youtu.be/4018OYyoAf8?t=4402 (starting with linked timestamp)
+- Continue https://youtu.be/4018OYyoAf8?t=4402 (starting with linked timestamp)
+
+### July 3
+- Finish https://youtu.be/4018OYyoAf8?t=6425 (Circuit → IOP → Sumcheck)
+- Discuss ideas
+- Discuss next steps for reading group
