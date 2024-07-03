@@ -17,7 +17,7 @@ This page collects topic ideas and resources.
 ## Provable security of recursion
 - [On the Security of Nova Recursive Proof System](https://eprint.iacr.org/2024/232) [talk](https://www.youtube.com/live/Y-hnyH9NdWY)
 Evaluating [[Random Oracle]]s within circuits:
-- [Arithmetized Random Oracles](https://eprint.iacr.org/2023/587) ([Slides](https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/284/slides.pdf))
+- [Arithmetized Random Oracles](https://eprint.iacr.org/2023/587) ([Talk](https://www.youtube.com/watch?v=RV8gTApAlW0), [Slides](https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/284/slides.pdf))
 - [(some) potential impossibility](https://eprint.iacr.org/2022/542) ([Slides](https://iacr.org/submit/files/slides/2023/eurocrypt/eurocrypt2023/170/slides.pdf))
 - [(another) potential impossibility](https://eprint.iacr.org/2024/728)
 
