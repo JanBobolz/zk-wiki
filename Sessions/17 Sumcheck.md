@@ -38,3 +38,14 @@ Advanced:
 - Finish https://youtu.be/4018OYyoAf8?t=6425 (Circuit → IOP → Sumcheck)
 - Discuss ideas
 - Discuss next steps for reading group
+
+### July 10
+The lecture last week left did not explain how to check (using sumchecks) that a multivariate polynomial vanishes on the boolean hypercube, i.e. $f(x_1,\dots,x_n) = 0\ \forall \{0,1\}^n$ (this statement is interesting because $f$ is set up such that this statement is equivalent to all circuit constraints being fulfilled).
+This session's goal is to find out how that actually works.
+
+Material: 
+- [Thaler lecture notes](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)  probably around Lemma 4.7 / Remark 4.4. We should probably just look at GKR at this point. 
+
+For comedic effect, one might also ask ChatGPT about it, which has a very simple solution:
+![[chatgpt-hypercube-vanish.png]]
+To be fair, it's quite impressive that it understood the question (*"I was watching a lecture about sumchecks (as in SNARKs). The lecturer reduced circuit satisfiability to a certain polynomial vanishing on the boolean hypercube, and said that this can be checked with a sumcheck. How?"*), and it supplied me with lots of explanations of how sumchecks work (which seemed decent), but it really messed up actual answer.
