@@ -16,6 +16,7 @@ created: 2024-06-13
 - [Paper: Sumcheck Arguments and their Applications](https://eprint.iacr.org/2021/333)
 - [Thaler lecture notes](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf) Chapters 3 & 4.
 - [Chiesa Lecture with proofs](https://www.youtube.com/watch?v=N1-67VPrsbA)
+- [GKR overview talk](https://youtu.be/x8pUxFptfb0?t=416)
 
 
 Advanced:
