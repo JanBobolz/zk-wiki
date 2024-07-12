@@ -5,6 +5,10 @@ created: 2024-01-09
 ---
 This page collects topic ideas and resources.
 
+# Halo2
+- https://youtu.be/RaEs5mnXIhY
+- https://www.youtube.com/watch?v=YlTt12s7vGE (questionable connection quality, but said to be good)
+
 # Lookup arguments
 - Plookup et al.
 - https://www.youtube.com/live/xnzjC_9vUzs?si=2b3biKKOkx3l1eMI Groth on folding memory checking
