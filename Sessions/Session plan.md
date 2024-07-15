@@ -93,9 +93,15 @@ June 12
 [[16 Mystery Meeting]]
 
 ## Sumcheck protocols
-June 19
+June 19, 26; July 3, 10
 
 [[17 Sumcheck]]
+
+## Halo2
+July 17 (etc.)
+
+[[17 Sumcheck]]
+
 
 # Planned but not sessioned
 See [[Open Topics]]
