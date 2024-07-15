@@ -10,6 +10,7 @@ Understand the Halo2 proof system
 ## 📚 Material
 - [ZK Whiteboard Session](https://youtu.be/RaEs5mnXIhY)
 - [ZK Meetup Seoul](https://www.youtube.com/watch?v=YlTt12s7vGE) (questionable connection quality, but said to be good)
+- [halo2 book](https://zcash.github.io/halo2/)
 
 ## 📝 Notes
 ### Sept 17
