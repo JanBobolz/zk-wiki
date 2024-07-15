@@ -5,6 +5,10 @@ created: 2024-01-09
 ---
 This page collects topic ideas and resources.
 
+# Sumchecks
+- https://eprint.iacr.org/2023/1342
+- Spartan https://eprint.iacr.org/2019/550
+- Lasso/Jolt? https://youtu.be/_WsCQc9Elcg
 # Lookup arguments
 - Plookup et al.
 - https://www.youtube.com/live/xnzjC_9vUzs?si=2b3biKKOkx3l1eMI Groth on folding memory checking
