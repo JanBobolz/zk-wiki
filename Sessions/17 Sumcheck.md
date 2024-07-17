@@ -14,6 +14,7 @@ created: 2024-06-13
 - [Justin Thaler ZK MOOC lecture](https://youtu.be/4018OYyoAf8) ([Slides](https://zk-learning.org/assets/lecture4.pdf))
 - [Jonathan Bootle lecture](https://youtu.be/TmSOC8FN2GE) (with lots of embedding into literature)
 - [Paper: Sumcheck Arguments and their Applications](https://eprint.iacr.org/2021/333)
+	- Appendix A: relation to Bulletproofs('s predecessor)
 - [Thaler lecture notes](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf) Chapters 3 & 4.
 - [Chiesa Lecture with proofs](https://www.youtube.com/watch?v=N1-67VPrsbA)
 - [GKR overview talk](https://youtu.be/x8pUxFptfb0?t=416)
