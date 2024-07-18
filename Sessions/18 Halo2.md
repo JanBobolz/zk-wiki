@@ -18,3 +18,6 @@ Related material
 ## 📝 Notes
 ### Sept 17
 - Watch Whiteboard session talk together (no preparation needed)
+
+### Sept 24
+- Go through more details, get an overview of what parts may be interesting. 

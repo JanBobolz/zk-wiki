@@ -100,7 +100,7 @@ June 19, 26; July 3, 10
 ## Halo2
 July 17 (etc.)
 
-[[17 Sumcheck]]
+[[18 Halo2]]
 
 
 # Planned but not sessioned
