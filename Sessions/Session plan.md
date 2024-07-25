@@ -98,7 +98,7 @@ June 19, 26; July 3, 10
 [[17 Sumcheck]]
 
 ## Halo2
-July 17 (etc.)
+July 17, 24, 31
 
 [[18 Halo2]]
 

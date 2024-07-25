@@ -16,8 +16,13 @@ Related material
 - [Bulletproof tricks](https://dankradfeist.de/ethereum/2021/07/27/inner-product-arguments.html) applicable to / used in the halo2 setting
 
 ## 📝 Notes
-### Sept 17
+### July 17
 - Watch Whiteboard session talk together (no preparation needed)
 
-### Sept 24
+### Juli 24
 - Go through more details, get an overview of what parts may be interesting. 
+
+### July 31
+Answer open question from last time:
+- How specifically does the accumulation of (the expensive part of) the IPA work?
+- Get a better overview of the whole picture, especially when it comes to the final [[Incrementally Verifiable Computation|IVC]].
