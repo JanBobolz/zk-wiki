@@ -41,5 +41,6 @@ For these properties, there is a huge diversity of concrete definitions, suitabl
 - **Strong NIZK**: figure without line 9.
 
 Disclaimer: this definition does not guarantee *consistency*, i.e. an invalid proof may theoretically become valid later. 
+Source: https://ia.cr/2024/818
 ## Honorable mentions
 - [[Witness Indistinguishability]]: a weaker version of security against cheating verifiers, which states that the verifier cannot distinguish a prover using valid witness $w_1$ from a prover using some other valid witness $w_2$.
