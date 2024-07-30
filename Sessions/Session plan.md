@@ -6,102 +6,30 @@ created: 2023-04-21
 ---
 
 # Sessions
-## History and Basics
-June 01, 15, and 22
+Planned
+- Space time tradeoffs for sumchecks (Carla; not before September)
 
-[[01 History and Basics]]
+2024
+- [[18 Halo2]] (July 17, 24, 31)
+- [[17 Sumcheck]] (June 19, 26; July 3, 10)
+- [[16 Mystery Meeting]] (June 12)
+- [[15 Lasso and Jolt]] (May 14 (paused topic))
+- [[14 ProtoStar]] (April 23 & 30 & May 7)
+- [[13 HyperNova]] (April 2 & 16)
+- [[12 SuperNova]] (March 19)
+- [[11 Sangria]] (January 30 & February 6)
 
-## Modern SNARK overview
-First steps towards understanding modern SNARKs (current goal: [[PLONK]])
+2023
+- [[10 Nova]] (December 16 & 23)
+- [[09 Theoretical Foundations and Recent Advancements]] (December 7)
+- [[08 Recursive SNARKs]] (November 16 & 23 & 30)
+- [[07 Linear PCP SNARKs]] (October 31 & November 7)
+- [[06 Polynomial Commitments based on FRI]] (October 24)
+- [[05 Polynomial Commitments based on ECC]] (October 10, 17)
+- [[04 Polynomial Commitments based on DL]] (September 12, 19)
+- [[03 Simple PLONK]] (July 13, 20, and 27)
+- [[02 Modern SNARK overview]] (June 29 and July 6)
+- [[01 History and Basics]] (June 01, 15, and 22)
 
-June 29 and July 6
-
-[[02 Modern SNARK overview]]
-
-## Simple PLONK
-We will understand the basic PolyIOP gadgets while looking at PLONK as an example. The session also includes a quick overview of the KZG polynomial commitment. 
-
-July 13, 20, and 27
-
-[[03 Simple PLONK]]
-
-## Polynomial Commitments based on Discrete Log
-We will study the [[KZG]] and [[Bulletproof]]s-based commitments in detail. 
-
-September 12, 19.
-
-[[04 Polynomial Commitments based on DL]]
-
-## Polynomial Commitments based on Error Correcting Codes
-October 10, 17.
-
-[[05 Polynomial Commitments based on ECC]]
-
-## Polynomial Commitments based on FRI
-October 24.
-
-[[06 Polynomial Commitments based on FRI]]
-
-## Linear PCPs
-October 31 & November 7 (Nov 7 is preliminary. Time slot change imminent).
-
-[[07 Linear PCP SNARKs]]
-
-## Recursive SNARKs
-November 16 & 23 & 30. 
-
-[[08 Recursive SNARKs]]
-
-## Theoretical foundations and recent advancements
-December 7
-
-[[09 Theoretical Foundations and Recent Advancements]]
-
-## Nova (R1CS folding)
-December 16 & 23
-
-[[10 Nova]]
-
-## Sangria (PLONKish folding)
-January 30 & February 6
-
-[[11 Sangria]]
-
-## SuperNova (non-uniform IVC)
-March 19
-
-[[12 SuperNova]]
-
-## HyperNova and CCS
-April 2 & 16
-
-[[13 HyperNova]]
-
-## ProtoStar
-April 23 & 30 & …
-
-[[14 ProtoStar]]
-
-## Lasso & Jolt
-May 14 (paused topic)
-
-[[15 Lasso and Jolt]]
-
-## unknown
-June 12
-
-[[16 Mystery Meeting]]
-
-## Sumcheck protocols
-June 19, 26; July 3, 10
-
-[[17 Sumcheck]]
-
-## Halo2
-July 17, 24, 31
-
-[[18 Halo2]]
-
-
-# Planned but not sessioned
+# Open topics
 See [[Open Topics]]
