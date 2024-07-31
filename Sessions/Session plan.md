@@ -7,6 +7,7 @@ created: 2023-04-21
 
 # Sessions
 Planned
+- Lookup arguments (Jan)
 - Space time tradeoffs for sumchecks (Carla; not before September)
 
 2024
