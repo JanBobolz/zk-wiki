@@ -7,7 +7,8 @@ created: 2023-04-21
 
 # Sessions
 Planned
-- Lookup arguments (Jan)
+- LogUp lookup arguments (Jan)
+- ZK for ML & refined LogUps https://ia.cr/2023/1518 (Akira)
 - Space time tradeoffs for sumchecks (Carla; not before September)
 
 2024
