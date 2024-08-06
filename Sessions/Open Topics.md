@@ -11,7 +11,8 @@ This page collects topic ideas and resources.
 - Lasso/Jolt? https://youtu.be/_WsCQc9Elcg
 # Lookup arguments
 - Plookup et al.
-- https://www.youtube.com/live/xnzjC_9vUzs?si=2b3biKKOkx3l1eMI Groth on folding memory checking
+- https://www.youtube.com/live/xnzjC_9vUzs Groth on folding memory checking
+- https://youtu.be/uGjbczKGm4s
 
 # Recursion and Folding
 - [Accumulation without homomorphism](https://youtu.be/mQ0hZeJMAgo?si=DOHfSgwUGECsu_tI) 
