@@ -18,6 +18,7 @@ This page collects topic ideas and resources.
 - [Accumulation without homomorphism](https://youtu.be/mQ0hZeJMAgo?si=DOHfSgwUGECsu_tI) 
 - [Lattice folding](https://youtu.be/DVHfukc35xk?si=dTdf78EigkotiVHB)  ([alternative talk](https://www.youtube.com/watch?v=-k8s7vVUx6s))
 - Nova cycle of curves [Talk 1](https://www.youtube.com/watch?v=cdYrxKLMpxM), [Talk 2](https://www.youtube.com/watch?v=l-F5ykQQ4qw)
+- [Mova: Nova folding without committing to error terms](https://eprint.iacr.org/2024/1220)
 
 ## Provable security of recursion
 - [On the Security of Nova Recursive Proof System](https://eprint.iacr.org/2024/232) [talk](https://www.youtube.com/live/Y-hnyH9NdWY)
