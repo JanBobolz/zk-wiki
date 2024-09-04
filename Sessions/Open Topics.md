@@ -54,3 +54,4 @@ Evaluating [[Random Oracle]]s within circuits:
 # Odds and ends
 - [Kiy23](https://doi.org/10.1007/978-3-031-48621-0_12) (*Holographic* SNARG, batch-P, LWE)
 - [Polymath](https://eprint.iacr.org/2024/916) (smaller proofs than Groth16)
+- Ligero
