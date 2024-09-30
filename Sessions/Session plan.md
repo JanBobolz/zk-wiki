@@ -12,6 +12,7 @@ Planned
 - Space time tradeoffs for sumchecks (Carla; not before September)
 
 2024
+- [[19 Multi-round Fiat-Shamir]] (Sept 18)
 - [[18 Halo2]] (July 17, 24, 31)
 - [[17 Sumcheck]] (June 19, 26; July 3, 10)
 - [[16 Mystery Meeting]] (June 12)
