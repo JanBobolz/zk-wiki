@@ -9,6 +9,10 @@ created: 2024-09-12
 <small>(Duties: Read material above-average carefully 🤓; prepare fallback discussions/questions (worst-case: just prepare some quiz questions about the material) 🙋. Prepare a few slides to guide the session through subtopics (this is <i>not</i> supposed to be a <i>detailed</i> summary of the material)</small>
 
 ## 🎯 Goals
+- Good overview of the situation
+	- what is the issue? 
+	- how much of it can be generically remedied?
+	- what are other strategies to deal with multi-round loss?
 
 ## 📚 Material
 - [AFK23](https://link.springer.com/article/10.1007/s00145-023-09478-y): main reference
