@@ -18,9 +18,16 @@ created: 2024-09-12
 - [AFK23](https://link.springer.com/article/10.1007/s00145-023-09478-y): main reference
 ### Extensions
 (if we have time)
-- [LaBRADOR](https://eprint.iacr.org/2024/311): Sections 4, 5
+- [Aggregation with LaBRADOR](https://eprint.iacr.org/2024/311): Sections 4, 5
 - https://eprint.iacr.org/2024/904
 - [CDS for multi-round](https://link.springer.com/chapter/10.1007/978-3-031-68400-5_12)
 
 ## 📝 Notes
 ### Sept 18
+- Discussion about sanity check: sequential repetition of small-challenge-space protocols (e.g., some traditional [[Cut-and-Choose]] protocols)
+	- Interactively, sequential repetition works for extraction. 
+	- With Fiat-Shamir, sequential repetition does not amplify security at all (can grind challenges). 
+	- Question: How is that reflected in [AFK23](https://link.springer.com/article/10.1007/s00145-023-09478-y)'s Theorem 2?
+	- Answer: The soundness/knowledge error gets very bad very quickly when increasing the number of rounds
+
+### Oct 16
