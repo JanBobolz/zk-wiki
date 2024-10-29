@@ -12,6 +12,7 @@ created: 2024-06-13
 ## 📚 Material
 - [Five minute intuition (David Wong)](https://www.youtube.com/watch?v=XV62OB022tU)
 - [Justin Thaler ZK MOOC lecture](https://youtu.be/4018OYyoAf8) ([Slides](https://zk-learning.org/assets/lecture4.pdf))
+- [Justin Thaler Whiteboard session](https://youtu.be/gfy8rotcas4)
 - [Jonathan Bootle lecture](https://youtu.be/TmSOC8FN2GE) (with lots of embedding into literature)
 - [Paper: Sumcheck Arguments and their Applications](https://eprint.iacr.org/2021/333)
 	- Appendix A: relation to Bulletproofs('s predecessor)
