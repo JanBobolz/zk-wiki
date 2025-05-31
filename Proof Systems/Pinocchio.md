@@ -3,30 +3,25 @@ aliases: []
 tags: []
 created: 2023-10-18
 ---
-$\newcommand{\FF}{\mathbb{F}}$
-$\newcommand{\idx}{\mathsf{i}}$
-$\newcommand{\stm}{\mathsf{x}}$
-$\newcommand{\wit}{\mathsf{w}}$
-
 # QAP
 Consider an arithmetic circuit consisting of $d$ multiplication gates and $m$ wires. 
-For the $j$ th multiplication gate, we assign a constant $\omega_j\in\FF$. Let $t(X)=\prod_{j=1}^d(X-\omega_j)$ be a vanishing polynomial over $\omega_1,\ldots,\omega_d$.
+For the $j$ th multiplication gate, we assign a constant $\omega_j\in\mathbb{F}$. Let $t(X)=\prod_{j=1}^d(X-\omega_j)$ be a vanishing polynomial over $\omega_1,\ldots,\omega_d$.
 
-Define selector polynomials $u_i,v_i,w_i\in\FF[X]$ for $i=0,\ldots,m$ of degree $d-1$ such that
+Define selector polynomials $u_i,v_i,w_i\in\mathbb{F}[X]$ for $i=0,\ldots,m$ of degree $d-1$ such that
   - $u_i(\omega_j)=1$ if the $i$-th wire is left input of $j$-th gate, and $0$ otherwise.
   - $v_i(\omega_j)=1$ if the $i$-th wire is right input of $j$-th gate, and $0$ otherwise.
   - $w_i(\omega_j)=1$ if the $i$-th wire is output of $j$-th gate, and $0$ otherwise.
   - $u_0,v_0,w_0$ specify addition/multiplication by constants. 
 
-A quadratic arithmetic program (QAP) over $\FF$ consists of $((u_i,v_i,w_i)_{i\in[0,m]},t)$.
-The wire values $a_1,\ldots,a_m$ satisfy QAP iff there exists some $h\in\FF_{\leq d-2}[X]$ such that
+A quadratic arithmetic program (QAP) over $\mathbb{F}$ consists of $((u_i,v_i,w_i)_{i\in[0,m]},t)$.
+The wire values $a_1,\ldots,a_m$ satisfy QAP iff there exists some $h\in\mathbb{F}_{\leq d-2}[X]$ such that
 $$p_{a_1,\ldots,a_m}(X):=\left(\sum_{i=0}^m a_i u_i(X)\right)\cdot\left(\sum_{i=0}^m a_i v_i(X)\right) - \sum_{i=0}^m a_i w_i(X) \equiv h(X) t(X)$$
 where $a_0=1$. 
 
 # Relation
-Given an index $\idx = ((u_i,v_i,w_i)_{i\in[0,m]},t)$, we obtain the following indexed relation:
+Given an index $i = ((u_i,v_i,w_i)_{i\in[0,m]},t)$, we obtain the following indexed relation:
 
-$$R_{\text{QAP}}= \left\{(\idx,(a_i)_{i\in[1,\ell]},(a_i)_{i\in[\ell+1,m]}) \,:\, \exists h\in\FF_{\leq d-2}[X] \text{ s.t. }p_{a_1,\ldots,a_m}(X) \equiv h(X) t(X)  \right\}$$
+$$R_{\text{QAP}}= \left\{(i,(a_i)_{i\in[1,\ell]},(a_i)_{i\in[\ell+1,m]}) \,:\, \exists h\in\mathbb{F}_{\leq d-2}[X] \text{ s.t. }p_{a_1,\ldots,a_m}(X) \equiv h(X) t(X)  \right\}$$
 
 where $\ell$ is the size of public statement. 
 

@@ -3,12 +3,6 @@ aliases: []
 tags: []
 created: 2023-10-18
 ---
-$\newcommand{\FF}{\mathbb{F}}$
-$\newcommand{\ZZ}{\mathbb{Z}}$
-$\newcommand{\idx}{\mathsf{i}}$
-$\newcommand{\stm}{\mathsf{x}}$
-$\newcommand{\wit}{\mathsf{w}}$
-
 # Main Idea 
 Groth16 can be viewed as an optimized variant of [[Pinocchio]] and is designed for [[Pinocchio#QAP]] relation. On a high-level, Groth16 manages to reduce the number of proof elements to 3 by stashing the following additional elements to $A,B,C$: 
   1. $D$ i.e. a commitment to the $h$ polynomial.  
@@ -97,17 +91,17 @@ Since $A$ and $B$ are now masked by independently chosen $r,s$, we can easily pe
 > - **SimSetup** $S_0(u_i,v_i,w_i,t)$
 >   - Run $\sigma\gets G(u_i,v_i,w_i,t)$. Output $\sigma$ and a simulator trapdoor $\tau=(\alpha,\beta,\delta)$
 > - **SimProof** $S_1((a_i)_{i\in[1,m]})$
->   - Sample uniform $a,b\in\ZZ_q$ and set $A=[a]_1,B=[b]_2$
+>   - Sample uniform $a,b\in\mathbb{Z}_q$ and set $A=[a]_1,B=[b]_2$
 >   - Set $C = [(ab-\alpha\beta - \sum_{i=0}^\ell a_i (w_i + \alpha v_i + \beta u_i))\delta^{-1}]_1$
 >   - Output $\pi=(A,B,C)$
 
 
 # Groth16 is re-randomizable
-It is easy to see that Groth16 is re-randomizable i.e. given $\pi=(A,B,C)$ for a statement $\stm$ one can generate a valid proof $\pi'$ for the same $\stm$. 
+It is easy to see that Groth16 is re-randomizable i.e. given $\pi=(A,B,C)$ for a statement $x$ one can generate a valid proof $\pi'$ for the same $x$. 
 There are essentially two ways to maul the proof:
 
 1. Set $A'=A^\rho$, $B'=B^{-\rho}$ for some $\rho$, output $\pi'=(A',B',C)$.
 2. Set $B'=B[\rho\delta]_2$ and $C'=A^\rho C$, output $\pi'=(A,B',C')$.
 
-It is still possible to show that forging Groth16 proof is hard for $\stm'\neq\stm$ i.e. it is weakly non-malleable (see [BKSV21](https://eprint.iacr.org/2020/811.pdf)).
+It is still possible to show that forging Groth16 proof is hard for $x'\neq x$ i.e. it is weakly non-malleable (see [BKSV21](https://eprint.iacr.org/2020/811.pdf)).
 To obtain strong non-malleability, Groth16 can be modified to [Groth-Maller proof](https://eprint.iacr.org/2017/540.pdf).
