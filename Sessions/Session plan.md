@@ -11,6 +11,10 @@ Planned
 - ZK for ML & refined LogUps https://ia.cr/2023/1518 (Akira)
 - Space time tradeoffs for sumchecks (Carla; not before September)
 
+2026
+* [[20 Common Techniques for Lattice-based Folding]] (Feb 30, 6)
+* 
+
 2024
 - [[19 Multi-round Fiat-Shamir]] (Sept 18, Oct 16)
 - [[18 Halo2]] (July 17, 24, 31)
