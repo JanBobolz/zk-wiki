@@ -4,7 +4,7 @@ aliases:
 tags: 
 created: 2023-11-07
 ---
-A way to make [[Rank 1 Constraint System|R1CS]] amenable to [[Folding Scheme|folding]].
+A way to make [[R1CS and QAPs (Rank 1 Constraint System and Quadratic Arithmetic Programs)|R1CS]] amenable to [[Folding Scheme|folding]].
 # Notes
 ![[PathToRelaxedR1CS.png]]
 
