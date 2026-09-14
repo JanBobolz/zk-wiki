@@ -25,4 +25,4 @@ created: 2023-10-24
 ### Subsession 2 (Nov 7)
 Open questions: 
 1. Why is it called "rank 1" constraint system?
-2. What's a good example where [[Rank 1 Constraint System|R1CS]] is a much more efficient representation of the desired relation relation than an [[Algebraic Circuit]]?
+2. What's a good example where [[R1CS and QAPs (Rank 1 Constraint System and Quadratic Arithmetic Programs)|R1CS]] is a much more efficient representation of the desired relation relation than an [[Algebraic Circuit]]?
