@@ -8,3 +8,5 @@
 .obsidian/appearance.json
 .obsidian/plugins/obsidian-git
 .obsidian/community-plugins.json
+.obsidian/graph.json
+node_modules/**
